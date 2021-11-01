@@ -1,0 +1,36 @@
+* {
+    font-family: 'Zen Old Mincho', Helvetica, san-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:visited {
+    color: #df9b9b;
+
+}
+
+a:hover {
+    color: #df9b9b;
+}
+
+@mixin navflex ($direction) {
+    display: flex;
+    align-content: space-between;
+    flex-direction: $direction;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.header-nav {
+
+    @include navflex(row);
+
+}
