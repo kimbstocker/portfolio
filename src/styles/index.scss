@@ -2,14 +2,22 @@
     font-family: 'Zen Old Mincho', Helvetica, san-serif;
 }
 
+
+h1 {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 a {
-    text-decoration: none;
     font-weight: bold;
+    border: 5px;
+    border-radius: 5rem;
+    border-color: #080808;
 }
 
 
 a:visited {
-    color: #df9b9b;
+    color: #7226af;
 
 }
 
@@ -17,20 +25,21 @@ a:hover {
     color: #df9b9b;
 }
 
-@mixin navflex ($direction) {
+@mixin flexitup ($direction) {
     display: flex;
-    align-content: space-between;
+    align-content: center;
+    justify-content: space-between;
     flex-direction: $direction;
 }
 
-
-h1 {
-    text-align: center;
-    font-family: 'Lora', serif;
+.header {
+    @include flexitup(row);
 }
 
+.logo {
+    width: 5vw;
+}
 .header-nav {
-
-    @include navflex(row);
-
+    width: 95vw;
+    @include flexitup(row);
 }
