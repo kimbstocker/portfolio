@@ -13,7 +13,7 @@ html {
 body {
   background-color: $background-color;
   margin: 0 auto;
-  height: 100%;
+  min-height: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -90,7 +90,11 @@ section {
         font-weight: 00;
         text-decoration: none;
     }
-  
+
+    a:hover {
+        color: white;
+        text-shadow: 0px 0px 2px white;
+    }
 }
 
 .header-left {
@@ -132,7 +136,7 @@ section {
 .footer-social {
     @include flexitup(row);
     align-items: center;
-    margin-left: 1em;
+    margin-left: 3em;
 
     a {
         display: flex;
@@ -147,10 +151,5 @@ section {
 }
 
 a:hover {
-    font-size: 115%;
-    color: $calming-green;
+    color: $complimentary-color1;
 }
-
-
-
-

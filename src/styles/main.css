@@ -7,7 +7,7 @@ html {
 body {
   background-color: #fff5f5;
   margin: 0 auto;
-  height: 100%;
+  min-height: 100%;
   max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,6 +118,11 @@ section {
   text-decoration: none;
 }
 
+.header-nav a:hover {
+  color: white;
+  text-shadow: 0px 0px 2px white;
+}
+
 .header-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,7 +217,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 1em;
+  margin-left: 3em;
 }
 
 .footer-social a {
@@ -228,8 +233,7 @@ section {
 }
 
 a:hover {
-  font-size: 115%;
-  color: #89aeb2;
+  color: #fcb6b6;
 }
 
 #contact-main {
