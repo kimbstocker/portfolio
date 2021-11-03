@@ -1,7 +1,8 @@
 #contact-main {
     @include flexitup(row);
-    flex-grow: 1;
+    justify-content: space-evenly;
 }
+
 .contact-form {
     @include flexitup(column);
 }

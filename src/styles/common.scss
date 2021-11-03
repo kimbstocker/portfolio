@@ -1,20 +1,22 @@
-html {
-    font-family: 'Zen Old Mincho', Helvetica, san-serif;
-    border: 1px solid $primary-color-pastel;
-}
-
-
 @mixin flexitup ($direction) {
     display: flex;
     flex-direction: $direction;
     flex-wrap: wrap;
 }
 
+html {
+    font-family: 'Zen Old Mincho', Helvetica, san-serif;
+    height: 100%;
+    margin: 0;
+}
 
 body {
   background-color: $background-color;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -38,6 +40,9 @@ section {
     }
 }
 
+.section-main {
+    flex-grow: 1;
+}
 
 .section-footer {
     border-top: 0.08rem solid $primary-color-pastel;
