@@ -3,11 +3,13 @@ html {
     border: 1px solid $primary-color-pastel;
 }
 
+
 @mixin flexitup ($direction) {
     display: flex;
     flex-direction: $direction;
     flex-wrap: wrap;
 }
+
 
 body {
   background-color: $background-color;
@@ -15,6 +17,9 @@ body {
   margin-right: 2em;
 }
 
+h1 {
+    font-family: 'Lora', serif;
+}
 
 section {
     padding: 1em;
@@ -22,10 +27,17 @@ section {
 
 .section-header {
     border-bottom: 0.08rem solid $primary-color-pastel;
+
+    .logo img {
+        height: 45px; 
+        width: 45px; 
+        border-radius: 50%; 
+        border: 2.5px solid #df9b9b; 
+        text-align: center; 
+        padding: 0px;
+    }
 }
 
-.section-main {
-}
 
 .section-footer {
     border-top: 0.08rem solid $primary-color-pastel;
@@ -135,8 +147,5 @@ a:hover {
 }
 
 
-// h1 {
-//     text-align: center;
-//     font-family: 'Lora', serif;
-// }
+
 
