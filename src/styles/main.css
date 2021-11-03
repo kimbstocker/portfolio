@@ -156,6 +156,7 @@ section {
   padding-top: 0.1em;
   padding-bottom: 0.25em;
   color: #df9b9b;
+  font-weight: 600;
 }
 
 .footer-links {
@@ -196,4 +197,9 @@ section {
 .footer-social img {
   width: 30px;
   height: 30px;
+}
+
+a:hover {
+  font-size: 115%;
+  color: #89aeb2;
 }
