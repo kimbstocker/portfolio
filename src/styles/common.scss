@@ -1,0 +1,106 @@
+html {
+    font-family: 'Zen Old Mincho', Helvetica, san-serif;
+    // height: 100%;
+    // width: 100%;
+    // padding: 0;
+    // margin: 0;
+    // border: 0;
+}
+
+@mixin flexitup ($direction) {
+    display: flex;
+    flex-direction: $direction;
+
+}
+
+body {
+  background-color: $background-color;
+}
+
+.section-header {
+    height: 10vh;
+    border-bottom: 0.08rem solid $primary-color-pastel;
+}
+
+.section-main {
+  
+
+}
+
+.section-footer {
+    border-top: 0.08rem solid $primary-color-pastel;
+}
+
+.welcome-image {
+    display: block;
+    width: 600px;
+    height: 100%;
+}
+
+
+.header {
+    @include flexitup(row);
+
+}
+
+.logo {
+    width: 5vw;
+    @include flexitup(row);
+}
+
+.header-nav {
+    @include flexitup(row);
+}
+
+.header-right {
+    @include flexitup(row);
+    width: 50vw;   
+}
+
+.footer {
+    @include flexitup(row);
+}
+
+.footer-nav {
+    @include flexitup(row);
+    width: 50vw;
+
+}
+
+.footer-links {
+    @include flexitup(column);
+}
+
+.footer-social {
+    @include flexitup(row);
+   
+
+    img {
+        width: 30px;
+        height: 30px;
+
+    }
+}
+
+
+// h1 {
+//     text-align: center;
+//     font-family: 'Lora', serif;
+// }
+
+// a {
+//     font-weight: bold;
+//     border: 5px;
+//     border-radius: 5rem;
+//     border-color: #080808;
+// }
+
+
+// a:visited {
+//     color: black;
+
+// }
+
+// a:hover {
+//     color: $adjacent-color-pantone;
+// }
