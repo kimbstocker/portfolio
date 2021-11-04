@@ -6,6 +6,22 @@
 
 .contact-form {
     @include flexitup(column);
+
+}
+
+.form-field {
+    background-color: $complimentary-color3;
+}
+
+.form-button {
+    background-color: $primary-color-pastel;
+    color: white;
+}
+
+.form-button:hover {
+    text-shadow: 0px 0px 2px white;
+    size: 1rem;
+
 }
 
 .contact-divider {
@@ -30,4 +46,5 @@
     }
    
 }
+
 

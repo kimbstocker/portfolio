@@ -135,7 +135,7 @@ section {
 }
 
 .footer-social {
-    @include flexitup(row);
+    @include flexitup(column);
     align-items: center;
     margin-left: 3em;
 
@@ -154,3 +154,20 @@ section {
 a:hover {
     color: $complimentary-color1;
 }
+
+
+@media screen and (min-width:600px) {
+     
+    .footer-social {
+         flex-direction: row;
+
+     }
+ }
+
+ @media screen and (max-width:400px) {
+     
+    .footer-social {
+         flex-direction: row;
+
+     }
+ }
