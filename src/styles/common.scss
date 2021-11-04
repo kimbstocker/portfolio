@@ -110,11 +110,11 @@ section {
 .footer {
     @include flexitup(row);
     align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.footer-left {
-    flex-grow: 1;
-}
+
 
 .footer-nav {
     @include flexitup(row);
@@ -135,7 +135,7 @@ section {
 }
 
 .footer-social {
-    @include flexitup(column);
+    @include flexitup(row);
     align-items: center;
     margin-left: 3em;
 
@@ -156,18 +156,8 @@ a:hover {
 }
 
 
-@media screen and (min-width:600px) {
-     
-    .footer-social {
-         flex-direction: row;
-
-     }
- }
-
- @media screen and (max-width:400px) {
-     
-    .footer-social {
-         flex-direction: row;
-
-     }
- }
+@media screen and (min-width:600px){
+    .footer-left {
+    flex-grow: 1;
+}
+}
