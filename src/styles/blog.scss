@@ -1,8 +1,25 @@
-.blog-icon {
-   
-        height: 65px;
-        width: 65px;
-        border: white;
+.blog-summary {
+
+    img {
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
-    
+        border: 2.5px solid #df9b9b;
+        padding: 0px;
+    }
 }
+
+
+#blog-main {
+    @include flexitup(column);  
+    img {
+        max-width: 100%;
+    }
+}
+
+.blog {
+    @include flexitup(row);
+    margin-bottom: 3rem;;
+
+}
+
