@@ -333,5 +333,15 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .contact-social img {
+    height: 65px;
+    width: 65px;
+    margin: 1rem;
   }
 }
