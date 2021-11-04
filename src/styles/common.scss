@@ -11,12 +11,12 @@ html {
 }
 
 body {
-  background-color: $background-color;
-  margin: 0 auto;
-  min-height: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
+    background-color: $background-color;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -32,11 +32,11 @@ section {
     border-bottom: 0.08rem solid $primary-color-pastel;
 
     .logo img {
-        height: 45px; 
-        width: 45px; 
-        border-radius: 50%; 
-        border: 2.5px solid #df9b9b; 
-        text-align: center; 
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: 2.5px solid #df9b9b;
+        text-align: center;
         padding: 0px;
     }
 }
@@ -156,8 +156,22 @@ a:hover {
 }
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) {
     .footer-left {
-    flex-grow: 1;
+        flex-grow: 1;
+    }
 }
+
+@media screen and (max-width:430px) {
+   
+    .footer-social {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:383px) {
+   
+    .footer-nav {
+        justify-content: space-around;
+    }
 }

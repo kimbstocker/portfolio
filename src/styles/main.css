@@ -244,6 +244,19 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .footer-social {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .footer-nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 #contact-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,8 +302,8 @@ a:hover {
 }
 
 .contact-divider img {
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  max-width: 90%;
 }
 
 .contact-later {
@@ -313,4 +326,13 @@ a:hover {
   width: 50px;
   height: 50px;
   margin: 0.25rem;
+}
+
+@media screen and (min-width: 600px) {
+  #contact-main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
