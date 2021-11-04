@@ -1,3 +1,6 @@
+// Common styling for all pages
+
+
 @mixin flexitup ($direction) {
     display: flex;
     flex-direction: $direction;
@@ -64,12 +67,9 @@ section {
 }
 
 .logo {
-    @include flexitup(row);
     margin-right: 1em;
+    align-self: flex-start;
 
-    a {
-        display: flex;
-    }
 }
 
 
@@ -163,15 +163,16 @@ a:hover {
 }
 
 @media screen and (max-width:430px) {
-   
+
     .footer-social {
         margin-left: 0;
     }
 }
 
 @media screen and (max-width:383px) {
-   
+
     .footer-nav {
         justify-content: space-around;
     }
 }
+

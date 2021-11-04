@@ -11,7 +11,9 @@
 
 }
 
-
+.contact-social {
+    @include flexitup(row);
+}
 
 .form-button {
     background-color: $primary-color-pastel;
