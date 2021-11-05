@@ -2,16 +2,13 @@
 
 #blog-main {
     @include flexitup(column); 
+    h3 {
+        margin-bottom: 0;
+    }
     p {
         margin: 0;
     } 
 
-}
-
-.blog-image {
-    border-radius: 5%;
-    max-width: 100%;
-    margin-top: 1rem;
 }
 
 .blog {
@@ -20,7 +17,7 @@
 
 }
 
-.blog-summary {
+.blog-overview {
 
     @include flexitup(row);
 
@@ -33,6 +30,28 @@
     }
     margin-bottom: 1rem;
 }
+
+.blog-summary {
+    margin-left: 1rem;
+}
+.blog-image {
+    border-radius: 5%;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:800px){
+   .blog-image {
+       max-width: 750px;
+   }
+
+   #blog-main {
+       align-content: center;
+   }
+   
+}
+
+
 
 
 
