@@ -22,7 +22,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Lora', Georgia, serif;
     margin: 0 0 1rem 0;
 }
@@ -85,7 +85,7 @@ section {
         padding-bottom: 0.25em;
         background-color: $primary-color-pastel;
         margin: 0.25em;
-        border-radius: 5%;
+        border-radius: 10%;
         border: 3px solid white;
         color: white;
         font-weight: 00;
@@ -147,7 +147,6 @@ section {
     img {
         width: 30px;
         height: 30px;
-
     }
 }
 

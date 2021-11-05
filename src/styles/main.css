@@ -18,7 +18,7 @@ body {
           flex-direction: column;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Lora', Georgia, serif;
   margin: 0 0 1rem 0;
 }
@@ -99,7 +99,7 @@ section {
   padding-bottom: 0.25em;
   background-color: #df9b9b;
   margin: 0.25em;
-  border-radius: 5%;
+  border-radius: 10%;
   border: 3px solid white;
   color: white;
   font-weight: 00;
@@ -244,6 +244,11 @@ a:hover {
   }
 }
 
+.thank-you {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 #contact-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,6 +293,7 @@ a:hover {
 
 .form-button {
   background-color: #df9b9b;
+  margin-top: 1rem;
   color: white;
 }
 
@@ -346,14 +352,6 @@ a:hover {
   }
 }
 
-.blog-summary img {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  border: 2.5px solid #df9b9b;
-  padding: 0px;
-}
-
 #blog-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,11 +364,30 @@ a:hover {
       flex-wrap: wrap;
 }
 
-#blog-main img {
+#blog-main p {
+  margin: 0;
+}
+
+.blog-image {
+  border-radius: 5%;
   max-width: 100%;
+  margin-top: 1rem;
 }
 
 .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.blog-summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,5 +397,13 @@ a:hover {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.blog-summary .blog-icon-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2.5px solid #df9b9b;
+  margin: 0 1rem;
 }

@@ -1,3 +1,10 @@
+
+.thank-you {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
 #contact-main {
     @include flexitup(column);
     justify-content: space-evenly;
@@ -17,6 +24,7 @@
 
 .form-button {
     background-color: $primary-color-pastel;
+    margin-top: 1rem;;
     color: white;
 }
 

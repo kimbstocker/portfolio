@@ -1,25 +1,39 @@
+
+
+#blog-main {
+    @include flexitup(column); 
+    p {
+        margin: 0;
+    } 
+
+}
+
+.blog-image {
+    border-radius: 5%;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.blog {
+    @include flexitup(column);
+    margin-bottom: 2rem;
+
+}
+
 .blog-summary {
 
-    img {
+    @include flexitup(row);
+
+    .blog-icon-image {
         height: 60px;
         width: 60px;
         border-radius: 50%;
         border: 2.5px solid #df9b9b;
-        padding: 0px;
+        margin: 0 1rem;
     }
+    margin-bottom: 1rem;
 }
 
 
-#blog-main {
-    @include flexitup(column);  
-    img {
-        max-width: 100%;
-    }
-}
 
-.blog {
-    @include flexitup(row);
-    margin-bottom: 3rem;;
-
-}
 
