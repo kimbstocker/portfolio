@@ -1,0 +1,27 @@
+#homepage-main {
+    font-family: 'Lora', Georgia, serif;
+    @include flexitup(column);
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+
+.welcome-message {
+    margin-bottom: 1.5rem;
+}
+
+.main-header {
+    p {
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+#welcome-image {
+    max-width: 100%;
+}
+
+#hompage-button {
+    font-size: 1.02rem;
+    font-family: 'Lora', Georgia, serif;
+
+}

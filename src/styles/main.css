@@ -2,6 +2,7 @@ html {
   font-family: 'Zen Old Mincho', Georgia, serif;
   height: 100%;
   margin: 0;
+  color: #030102;
 }
 
 body {
@@ -142,14 +143,6 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .footer-nav {
@@ -171,6 +164,10 @@ section {
   padding-bottom: 0.25em;
   color: #dd8c8c;
   font-weight: bold;
+}
+
+.footer-nav a:hover {
+  color: #fcb6b6;
 }
 
 .footer-links {
@@ -213,8 +210,33 @@ section {
   height: 30px;
 }
 
-a:hover {
-  color: #fcb6b6;
+.main-header {
+  padding-bottom: 0;
+}
+
+.main-header p {
+  font-family: 'Lora', Georgia, serif;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: #4e4ed1;
+}
+
+.form-button {
+  background-color: #dd8c8c;
+  margin-top: 1rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.form-button:hover {
+  text-shadow: 0px 0px 2px white;
+  size: 1rem;
 }
 
 @media screen and (max-width: 383px) {
@@ -236,6 +258,40 @@ a:hover {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
+}
+
+#homepage-main {
+  font-family: 'Lora', Georgia, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.welcome-message {
+  margin-bottom: 1.5rem;
+}
+
+.main-header p {
+  text-align: left;
+  margin-top: 0;
+}
+
+#welcome-image {
+  max-width: 100%;
+}
+
+#hompage-button {
+  font-size: 1.02rem;
+  font-family: 'Lora', Georgia, serif;
 }
 
 .thank-you {
@@ -283,17 +339,6 @@ a:hover {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.form-button {
-  background-color: #dd8c8c;
-  margin-top: 1rem;
-  color: white;
-}
-
-.form-button:hover {
-  text-shadow: 0px 0px 2px white;
-  size: 1rem;
 }
 
 .contact-divider {
@@ -344,23 +389,6 @@ a:hover {
     width: 65px;
     margin: 1rem;
   }
-}
-
-#resume-head {
-  padding-bottom: 0;
-}
-
-#resume-head p {
-  font-family: 'Lora', Georgia, serif;
-  text-align: center;
-  font-size: 1.6rem;
-  padding: 0;
-  margin-bottom: 0;
-}
-
-#resume-head a {
-  text-decoration: none;
-  color: #4e4ed1;
 }
 
 #resume-main {

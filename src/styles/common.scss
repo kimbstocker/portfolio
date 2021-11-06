@@ -11,6 +11,7 @@ html {
     font-family: 'Zen Old Mincho', Georgia, serif;
     height: 100%;
     margin: 0;
+    color: $primary-text-color;
 }
 
 body {
@@ -101,9 +102,7 @@ section {
 
 .footer {
     @include flexitup(row);
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+
 }
 
 
@@ -118,6 +117,10 @@ section {
         padding-bottom: 0.25em;
         color: $primary-color-pastel;
         font-weight: bold;
+    }
+
+    a:hover {
+        color: $complimentary-color1;
     }
 }
 
@@ -142,8 +145,40 @@ section {
     }
 }
 
-a:hover {
-    color: $complimentary-color1;
+
+
+
+.main-header {
+    padding-bottom: 0;
+
+    p {
+        
+        font-family: 'Lora', Georgia, serif;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 0;
+        margin-bottom: 0;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(78, 78, 209);
+    }
+}
+
+.form-button {
+    background-color: $primary-color-pastel;
+    margin-top: 1rem;;
+    color: white;
+    padding: 0.5rem;
+
+}
+
+.form-button:hover {
+    text-shadow: 0px 0px 2px white;
+    size: 1rem;
+
 }
 
 @media screen and (max-width:383px) {

@@ -1,21 +1,4 @@
-#resume-head {
-    padding-bottom: 0;
 
-    p {
-        
-        font-family: 'Lora', Georgia, serif;
-        text-align: center;
-        font-size: 1.6rem;
-        padding: 0;
-        margin-bottom: 0;
-
-    }
-
-    a {
-        text-decoration: none;
-        color: rgb(78, 78, 209);
-    }
-}
 
 #resume-main {
     @include flexitup(column);

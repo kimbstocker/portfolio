@@ -22,17 +22,7 @@
     @include flexitup(row);
 }
 
-.form-button {
-    background-color: $primary-color-pastel;
-    margin-top: 1rem;;
-    color: white;
-}
 
-.form-button:hover {
-    text-shadow: 0px 0px 2px white;
-    size: 1rem;
-
-}
 
 .contact-divider {
     text-align: center;
