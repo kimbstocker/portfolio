@@ -1,0 +1,81 @@
+#resume-head {
+    padding-bottom: 0;
+
+    p {
+        
+        font-family: 'Lora', Georgia, serif;
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 0;
+        margin-bottom: 0;
+
+    }
+}
+
+#resume-main {
+    @include flexitup(column);
+    align-content: center;
+    justify-content: space-around;
+
+    .experience-date {
+        margin: 0;
+    }
+
+    h2 {
+        margin-top: 1rem;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+   
+    ul {
+        padding-left: 1rem;
+        margin: 0 0 1rem 0;
+    }
+}
+
+.resume {
+    @include flexitup(column);
+    margin: 1rem;
+    padding: 1em 2em;
+    border-radius: 5%;
+    
+}
+
+#skills {
+    background-color: $complimentary-color2;
+    box-shadow: 8px 8px 16px #eeabaa;
+}
+
+#experience {
+    background-color: $calming-green;
+    box-shadow: 8px 8px 16px #9fd6b9;
+}
+
+#education {
+    background-color: $adjacent-color1;
+    box-shadow: 8px 8px 16px #f1b1d1;
+
+    p {
+        margin: 0;
+    }
+
+    #para-mfm {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .resume {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #resume-main {
+        flex-direction: row;
+    }
+}
