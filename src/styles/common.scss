@@ -22,7 +22,7 @@ body {
     flex-direction: column;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Lora', Georgia, serif;
     margin: 0 0 1rem 0;
 }
@@ -50,14 +50,6 @@ section {
 
 .section-footer {
     border-top: 0.08rem solid $primary-color-pastel;
-}
-
-
-
-.welcome-image {
-    display: block;
-    width: 600px;
-    height: 100%;
 }
 
 
@@ -125,7 +117,7 @@ section {
         padding-top: 0.1em;
         padding-bottom: 0.25em;
         color: $primary-color-pastel;
-        font-weight: 600;
+        font-weight: bold;
     }
 }
 
@@ -154,10 +146,10 @@ a:hover {
     color: $complimentary-color1;
 }
 
+@media screen and (max-width:383px) {
 
-@media screen and (min-width:600px) {
-    .footer-left {
-        flex-grow: 1;
+    .footer-nav {
+        justify-content: space-around;
     }
 }
 
@@ -168,10 +160,13 @@ a:hover {
     }
 }
 
-@media screen and (max-width:383px) {
-
-    .footer-nav {
-        justify-content: space-around;
+@media screen and (min-width:600px) {
+    .footer-left {
+        flex-grow: 1;
     }
 }
+
+
+
+
 
