@@ -1,4 +1,10 @@
 
+.main-header {
+    p {
+        text-align: center;
+
+    }
+}
 
 #resume-main {
     @include flexitup(column);
@@ -67,14 +73,20 @@
 
 @media screen and (min-width: 400px) {
     .resume {
-        width: 280px;
+        width: 300px;
     }
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1080px) {
+    
     #resume-main {
-        flex-direction: row;
+                flex-direction: row;
+                margin: 0;
+            }
+
+    .resume {
+        width: 250px;
     }
 }
+
 

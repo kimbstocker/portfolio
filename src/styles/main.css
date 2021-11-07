@@ -391,6 +391,10 @@ section {
   }
 }
 
+.main-header p {
+  text-align: center;
+}
+
 #resume-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -471,16 +475,20 @@ section {
 
 @media screen and (min-width: 400px) {
   .resume {
-    width: 280px;
+    width: 300px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1080px) {
   #resume-main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin: 0;
+  }
+  .resume {
+    width: 250px;
   }
 }
 
