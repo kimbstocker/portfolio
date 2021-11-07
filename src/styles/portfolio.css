@@ -1,1 +1,35 @@
-/* No CSS */
+#bird {
+  width: 3rem;
+  height: auto;
+  position: absolute;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  -webkit-animation-name: flying-bird;
+          animation-name: flying-bird;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes flying-bird {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+
+@keyframes flying-bird {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1200px;
+  }
+}

@@ -13,6 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Zen+Old+Mincho:wght@400;900&display=swap"
         rel="stylesheet">
+
+
+
+
+    <script LANGUAGE="JavaScript" type="text/javascript">
+        function display() {
+            DispWin = window.open('', 'NewWin', 'toolbar=no,status=no,width=300,height=200')
+            message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
+            message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
+            message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
+            DispWin.document.write(message);
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -45,6 +60,22 @@
 
 
     <section class="section-main" id="homepage-main">
+
+
+        <form name="form1">
+            <p><b>Name:</b> <input TYPE="TEXT" SIZE="20" NAME="yourname">
+            </p>
+            <p><b>Address:</b> <input TYPE="TEXT" SIZE="30" NAME="address">
+            </p>
+            <p><b>Phone: </b> <input TYPE="TEXT" SIZE="15" NAME="phone">
+            </p>
+            <p><input TYPE="BUTTON" VALUE="Display" onClick="display();"></p>
+        </form>
+
+
+
+
+
         <div class="welcome-message">
             <div class="main-header">
                 <p>Hello There!</p>
