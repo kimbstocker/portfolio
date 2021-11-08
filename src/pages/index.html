@@ -49,127 +49,80 @@
     <section class="section-main" id="homepage-main">
 
 
-        <div class="welcome-message">
+        <div class="welcome" id="welcome1">
 
-            <div class="main-header">
-                <p id="greeting">Hello There!</p>
+            <div class="welcome-text" id="welcome-text1">
+
+                <p class="greeting">Hi There!</p>
+                <p>
+                    Welcome to my Portfolio<br>
+                    First thing first,<br>
+                    Tell me your name!
+                </p>
+                <form id="name-input" onsubmit="returnname(); return false;">
+                    <label>
+                        <input type="text" name="fname" id="visitor-name" placeholder="Enter your name here">
+                    </label>
+                </form>
+                <button onclick="passName()" class="form-button" id="pass-button">I'll Pass! Thanks!</button>
             </div>
 
+            <div class="welcome-image" id="profile-pic">
+                <img src="../images/Kim_Stocker_T1A2_ProfilePic_870x900.jpeg" alt="a profile picture">
+            </div>
 
-            <p class="welcome-text" id="welcome-text1">Welcome to my Portfolio<br>
-                First thing first,<br>
-                Tell me your name!</p>
+        </div>
 
-            <!-- hidden element, only show after name is submited or button is clicked -->
 
-            <div class=welcome-text" id="welcome-text2" style="display: none;">
+        <!-- hidden element, only show after name is submited or button is clicked -->
+
+        <div class="welcome" id="welcome2" style="display: none;">
+
+            <div class="welcome-text" id="welcome-text1">
+
+                <p class="greeting" id="personal-greeting"></p>
 
                 <p>Hope you enjoy browsing the content.</p>
                 <p>As this is my first website ever :D,
                     would love to receive any <a href="contact.html">feedback</a> from you! :)
                 </p>
-                <p>If you like to see me grow as a Software Developer, please follow me on <a
-                        href="https://twitter.com/KimStocker7" target="_blank">Twitter</a>, <a
+                <p>And if you'd like to see me grow as a Software Developer, check out my <a href="blog.html">blog</a>
+                    and follow me on <a href="https://twitter.com/KimStocker7" target="_blank">Twitter</a>, <a
                         href="https://www.linkedin.com/in/kim-stocker-83547217" target="_blank">LinkedIn</a> or <a
-                        href="https://github.com/kimbstocker" target="_blank">GitHub</a>.
+                        href="https://github.com/kimbstocker" target="_blank">GitHub</a> ;).
                 </p>
-
             </div>
 
-            <!-- hidden element, only show after name is submited or button is clicked -->
-
-            <form id="name-input" onsubmit="myFunction(); return false;">
-                <label>
-                    <input type="text" name="fname" id="visitor-name" placeholder="Enter your name here">
-                </label>
-            </form>
-            <div>
-                <button onclick="passName()" class="form-button" id="pass-button">I'll pass! Thanks!</button>
+            <div class="welcome-image" id="dog-image">
+                <img src="../images/dog-image.jpg" alt="profile picture">
             </div>
+
         </div>
 
+        <!-- hidden element, only show after name is submited or button is clicked -->
 
         <script>
-            function myFunction() {
+
+            function returnname() {
                 var x = document.getElementById("name-input");
-                var welcome = "Hi ";
+                var welcome = "Hello ";
                 var i;
                 for (i = 0; i < x.length; i++) {
                     welcome += x.elements[i].value;
                 }
-                document.getElementById("greeting").innerHTML = welcome + "!";
-                document.getElementById("welcome-text1").style.display = 'none';
-                document.getElementById("welcome-text2").style.display = 'block';
-                document.getElementById("name-input").style.display = 'none';
-                document.getElementById("pass-button").style.display = 'none';
+                document.getElementById("personal-greeting").innerHTML = welcome + "!!!";
+                document.getElementById("welcome1").style.display = 'none';
+                document.getElementById("welcome2").style.display = 'block';
             }
-
 
             function passName() {
-                document.getElementById("greeting").innerHTML = "Hi I'll pass! :P";
-                document.getElementById("welcome-text1").style.display = 'none';
-                document.getElementById("welcome-text2").style.display = 'block';
-                document.getElementById("name-input").style.display = 'none';
-                document.getElementById("pass-button").style.display = 'none';
+                document.getElementById("personal-greeting").innerHTML = "Hi I'll pass! :P";
+                document.getElementById("welcome1").style.display = 'none';
+                document.getElementById("welcome2").style.display = 'block';
+
             }
+
         </script>
-
-
-
-
-
-        <!-- <p id="demo">A Paragraph.</p>
-
-        <button type="button" onclick="myFunction()">Try it</button>
-
-        <script>
-            function myFunction() {
-                document.getElementById("greeting").innerHTML = "Paragraph changed.";
-            }
-        </script>
-
-
-
-
-
-
-
-
-        <form id="frm1" action="/action_page.php">
-            First name: <input type="text" name="fname" value="Donald"><br>
-            Last name: <input type="text" name="lname" value="Duck"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <p>Click "Try it" to display the value of each element in the form.</p>
-
-        <button onclick="myFunction()">Try it</button>
-
-        <p id="demo"></p> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="welcome-image">
-            <img id="welcome-image" src="../images/Kim_Stocker_T1A2_ProfilePic_870x900.jpeg" alt="profile picture">
-        </div>
-
-
 
 
     </section>

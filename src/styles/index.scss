@@ -2,28 +2,32 @@
     font-family: 'Lora', Georgia, serif;
     @include flexitup(column);
     justify-content: space-around;
-    margin: 1.5rem;
+    align-content: space-around;
+    margin: 1rem;
+
 }
 
-.welcome-message {
-    margin-bottom: 1.5rem;
+
+.welcome-text {
+    margin-bottom: 1rem;
 }
 
-#greeting {
-   
-        text-align: left;
-        margin-top: 0;
-   
+.greeting {
+  
+    margin: 0;
+    font-size: 1.5rem;
+
 }
 
-#welcome-image {
-    max-width: 100%;
+.welcome-image {
+    img {
+        max-width: 100%;
+    }
 }
 
 #pass-button {
     font-size: 1rem;
     font-family: 'Lora', Georgia, serif;
-    margin: 1rem 0 0 0;
 
 }
 
@@ -31,3 +35,21 @@
     height: 1.2rem;
 }
 
+
+@media screen and (min-width:850px) {
+
+    #homepage-main {
+        flex-direction: row;
+
+    }
+
+    .welcome-text {
+        width: 250px;
+    }
+
+    .welcome-image {
+        img {
+            max-width: 500px;
+        }
+    }
+}
