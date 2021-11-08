@@ -1,19 +1,21 @@
-#homepage-main {
+.welcome {
     font-family: 'Lora', Georgia, serif;
     @include flexitup(column);
     justify-content: space-around;
     align-content: space-around;
     margin: 1rem;
-
 }
 
 
 .welcome-text {
+    @include flexitup(column);
+    align-content: flex-start;
+    max-width: 500px;
     margin-bottom: 1rem;
 }
 
 .greeting {
-  
+
     margin: 0;
     font-size: 1.5rem;
 
@@ -21,7 +23,9 @@
 
 .welcome-image {
     img {
+        width: 500px;
         max-width: 100%;
+        height: auto;
     }
 }
 
@@ -36,20 +40,13 @@
 }
 
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:810px) {
 
-    #homepage-main {
+    .welcome {
         flex-direction: row;
 
     }
 
-    .welcome-text {
-        width: 250px;
-    }
-
-    .welcome-image {
-        img {
-            max-width: 500px;
-        }
-    }
 }
+
+

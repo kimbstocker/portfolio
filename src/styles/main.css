@@ -260,7 +260,7 @@ section {
   }
 }
 
-#homepage-main {
+.welcome {
   font-family: 'Lora', Georgia, serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,6 +279,18 @@ section {
 }
 
 .welcome-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  max-width: 500px;
   margin-bottom: 1rem;
 }
 
@@ -288,7 +300,9 @@ section {
 }
 
 .welcome-image img {
+  width: 500px;
   max-width: 100%;
+  height: auto;
 }
 
 #pass-button {
@@ -300,18 +314,12 @@ section {
   height: 1.2rem;
 }
 
-@media screen and (min-width: 850px) {
-  #homepage-main {
+@media screen and (min-width: 810px) {
+  .welcome {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-  }
-  .welcome-text {
-    width: 250px;
-  }
-  .welcome-image img {
-    max-width: 500px;
   }
 }
 
