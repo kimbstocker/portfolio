@@ -9,19 +9,25 @@
     margin-bottom: 1.5rem;
 }
 
-.main-header {
-    p {
+#greeting {
+   
         text-align: left;
         margin-top: 0;
-    }
+   
 }
 
 #welcome-image {
     max-width: 100%;
 }
 
-#hompage-button {
-    font-size: 1.02rem;
+#pass-button {
+    font-size: 1rem;
     font-family: 'Lora', Georgia, serif;
+    margin: 1rem 0 0 0;
 
 }
+
+#visitor-name {
+    height: 1.2rem;
+}
+
