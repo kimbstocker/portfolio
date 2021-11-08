@@ -1,30 +1,21 @@
 
-// <script>
-        
-      
 
-// function display() {
-//     DispWin = window.open('', 'NewWin', 'toolbar=no,status=no,width=300,height=200')
-//     message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
-//     message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
-//     message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
-//     DispWin.document.write(message);
-// }
+function returnname() {
+    var x = document.getElementById("name-input");
+    var welcome = "Hello ";
+    var i;
+    for (i = 0; i < x.length; i++) {
+        welcome += x.elements[i].value;
+    }
+    document.getElementById("personal-greeting").innerHTML = welcome + "!!!";
+    document.getElementById("welcome1").style.display = 'none';
+    document.getElementById("welcome2").style.display = 'flex';
+}
 
-// </script>
+function passName() {
+    document.getElementById("personal-greeting").innerHTML = "Hi I'll pass! :P";
+    document.getElementById("welcome1").style.display = 'none';
+    document.getElementById("welcome2").style.display = 'flex';
 
+}
 
-
-// {/* <script LANGUAGE="JavaScript" type="text/javascript" src="../script/common.js">
-        
-      
-
-//         function display() {
-//             DispWin = window.open('', 'NewWin', 'toolbar=no,status=no,width=300,height=200')
-//             message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
-//             message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
-//             message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
-//             DispWin.document.write(message);
-//         }
-        
-//         </script> */}
