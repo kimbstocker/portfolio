@@ -1,5 +1,10 @@
 #portfolio-main {
+    @include flexitup(column)
+    align-content: center;
 
+    video {
+        max-width: 100%;
+    }
        
 }
 
