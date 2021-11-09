@@ -42,18 +42,21 @@
 
     </section>
 
-
+    
 
     <section class="section-main" id="contact-main">
 
+        <p id="thank-name">Thank you!</p>
 
         <div class="contact-now">
+
+
             <h1>Get In Touch Now?</h1>
 
             <form class="contact-form" action="https://formspree.io/f/xrgrwqwp" method="POST">
                 <label>
                     <div>Name:</div>
-                    <input type="text" name="fname" class="form-field">
+                    <input type="text" name="fname" class="form-field" id="contact-name">
                 </label>
                 <label>
                     <div>Your email:</div>
@@ -121,6 +124,10 @@
 
     </section>
 
+    <script>
+        thankname();
+        prefillName();
+    </script>
 </body>
 
 </html>

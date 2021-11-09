@@ -323,9 +323,12 @@ section {
   }
 }
 
-.thank-you {
+#thank-name {
   text-align: center;
-  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  width: 100%;
 }
 
 #contact-main {
@@ -341,6 +344,8 @@ section {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -368,15 +373,6 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.contact-divider {
-  text-align: center;
-}
-
-.contact-divider img {
-  height: 30%;
-  max-width: 90%;
 }
 
 .contact-later {

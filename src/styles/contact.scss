@@ -1,15 +1,17 @@
-
-.thank-you {
+#thank-name {
     text-align: center;
-    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    width: 100%;
 }
 
 
 #contact-main {
     @include flexitup(column);
     justify-content: space-evenly;
+    align-content: space-between;
     align-items: center;
-   
 }
 
 
@@ -23,31 +25,24 @@
 }
 
 
-
-.contact-divider {
-    text-align: center;
-    img {
-        height: 30%;
-        max-width: 90%;
-    }
-}
-
 .contact-later {
-    
+
     @include flexitup(column);
 
     h1 {
         text-align: center;
     }
+
     img {
         width: 50px;
         height: 50px;
         margin: 0.25rem;
     }
-   
+
 }
 
-@media screen and (min-width:600px){
+
+@media screen and (min-width:600px) {
     #contact-main {
         flex-direction: row;
         align-items: flex-start;
@@ -62,5 +57,3 @@
         }
     }
 }
-
-
