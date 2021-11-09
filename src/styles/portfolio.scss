@@ -3,32 +3,3 @@
        
 }
 
-
-#bird {
-    width: 3rem;
-    height: auto;
-    position: absolute;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    transform: rotate(25deg);
-
-    
-    animation-name: flying-bird;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
-} 
-
-
-@keyframes flying-bird {
-    from {left:0px;}
-    to {left:1200px;}
-}
-
-
-
-    // 25%  {left:200px; top:0px;}
-    // 50%  {left:200px; top:200px;}
-    // 75%  {left:0px; top:200px;}
-    // 100% {left:0px; top:0px;}

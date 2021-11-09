@@ -397,25 +397,6 @@ section {
   margin: 0.25rem;
 }
 
-@media screen and (min-width: 600px) {
-  #contact-main {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  .contact-social img {
-    height: 65px;
-    width: 65px;
-    margin: 1rem;
-  }
-}
-
 #bird {
   width: 3rem;
   height: auto;
@@ -424,31 +405,21 @@ section {
   padding-bottom: 0;
   -webkit-transform: rotate(25deg);
           transform: rotate(25deg);
-  -webkit-animation-name: flying-bird;
-          animation-name: flying-bird;
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
 }
 
-@-webkit-keyframes flying-bird {
-  from {
-    left: 0px;
+@media screen and (min-width: 600px) {
+  #contact-main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
-  to {
-    left: 1200px;
-  }
-}
-
-@keyframes flying-bird {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 1200px;
+  .contact-social img {
+    height: 65px;
+    width: 65px;
+    margin: 1rem;
   }
 }
 

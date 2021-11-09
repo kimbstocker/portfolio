@@ -41,12 +41,21 @@
 
 }
 
+#bird {
+    width: 3rem;
+    height: auto;
+    position: absolute;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    transform: rotate(25deg);
+
+
+} 
 
 @media screen and (min-width:600px) {
     #contact-main {
         flex-direction: row;
-        align-items: flex-start;
-        align-content: center;
+        align-content: flex-start;
     }
 
     .contact-social {
