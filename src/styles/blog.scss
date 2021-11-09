@@ -20,20 +20,29 @@
 .blog-overview {
 
     @include flexitup(row);
+    align-items: center;
+    margin-left: 1rem; 
+
 
     .blog-icon-image {
         height: 60px;
         width: 60px;
         border-radius: 50%;
         border: 2.5px solid #df9b9b;
-        margin: 0 1rem;
+        margin-right: 1rem;
     }
     margin-bottom: 1rem;
 }
 
+.blog-date {
+    font-size: 0.9rem;
+}
+
+
 .blog-summary {
     margin-left: 1rem;
 }
+
 .blog-image {
     border-radius: 5%;
     max-width: 100%;

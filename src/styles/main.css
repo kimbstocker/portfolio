@@ -596,6 +596,10 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -604,7 +608,11 @@ section {
   width: 60px;
   border-radius: 50%;
   border: 2.5px solid #df9b9b;
-  margin: 0 1rem;
+  margin-right: 1rem;
+}
+
+.blog-date {
+  font-size: 0.9rem;
 }
 
 .blog-summary {
