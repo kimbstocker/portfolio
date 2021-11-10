@@ -1,10 +1,69 @@
 #portfolio-main {
-    @include flexitup(column)
-    align-content: center;
+    @include flexitup(column);
+    align-items: center;
 
     video {
         max-width: 100%;
     }
-       
+
+    hr {
+        width: 90%;
+        color: $adjacent-color3;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
 }
 
+.project {
+    @include flexitup(column);
+    align-items: center;
+    margin: 1rem;
+
+    
+}
+
+#project1 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    hr {
+        width: 25%;
+    }
+
+}
+
+#project2 {
+    margin-top: 2rem;
+    hr {
+        width: 25%;
+    }
+}
+
+
+
+.mobile-videos {
+    @include flexitup(row);
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 1080px) {
+
+    .project {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .intro {
+        width: 200px;
+    }
+
+    .mobile-videos {
+        width: 800px;
+    }
+
+}
