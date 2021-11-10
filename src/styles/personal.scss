@@ -1,0 +1,9 @@
+#personal-main {
+    @include flexitup(column);
+    align-items: center;
+    
+    img{
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}
