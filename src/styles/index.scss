@@ -1,3 +1,8 @@
+#homepage-main {
+    font-family: 'Lora', Georgia, serif;
+
+}
+
 .welcome {
     @include flexitup(column);
     justify-content: space-around;
@@ -30,8 +35,8 @@
 }
 
 #pass-button {
-    font-size: 1rem;
     border-radius: 5%;
+    text-align: left;
 
 }
 

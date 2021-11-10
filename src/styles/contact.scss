@@ -1,27 +1,28 @@
 #thank-name {
+    font-family: 'Lora', Georgia, serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 1rem;
     width: 100%;
 }
 
 
-#contact-main {
+.contacts {
     @include flexitup(column);
-    justify-content: space-evenly;
-    align-content: space-between;
-    align-items: center;
+    
 }
 
 
-.contact-form {
+.contact-now {
     @include flexitup(column);
+    align-content: center;
 
 }
 
 .contact-social {
     @include flexitup(row);
+    justify-content: center;
 }
 
 
@@ -53,15 +54,16 @@
 } 
 
 @media screen and (min-width:600px) {
-    #contact-main {
+    .contacts {
         flex-direction: row;
-        align-content: flex-start;
+        justify-content: space-around;
+      
     }
 
     .contact-social {
         img {
-            height: 65px;
-            width: 65px;
+            height: 55px;
+            width: 55px;
             margin: 1rem;
         }
     }

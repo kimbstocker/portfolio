@@ -25,15 +25,16 @@ body {
 
 .section-main {
     flex-grow: 1;
-    font-family: 'Lora', Georgia, serif;
 
     button, input {
         font-family: 'Lora', Georgia, serif;
     }
 }
 
-h1, h2 {
+h1, h2, h3 {
     margin: 1rem 0;
+    font-family: 'Lora', Georgia, serif;
+
 }
 
 section {
