@@ -19,9 +19,19 @@ body {
           flex-direction: column;
 }
 
-h1, h2, h3 {
+.section-main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   font-family: 'Lora', Georgia, serif;
-  margin: 0 0 1rem 0;
+}
+
+.section-main button, .section-main input {
+  font-family: 'Lora', Georgia, serif;
+}
+
+h1, h2 {
+  margin: 1rem 0;
 }
 
 section {
@@ -39,12 +49,6 @@ section {
   border: 2.5px solid #df9b9b;
   text-align: center;
   padding: 0px;
-}
-
-.section-main {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .section-footer {
@@ -88,10 +92,7 @@ section {
 }
 
 .header-nav a {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 0.1em;
-  padding-bottom: 0.25em;
+  padding: 0.1em 0.5rem 0.25rem 0.5rem;
   background-color: #dd8c8c;
   margin: 0.25em;
   border-radius: 10%;
@@ -215,7 +216,6 @@ section {
 }
 
 .main-header p {
-  font-family: 'Lora', Georgia, serif;
   text-align: center;
   font-size: 1.6rem;
   padding: 0;
@@ -229,9 +229,11 @@ section {
 
 .form-button {
   background-color: #dd8c8c;
-  margin-top: 1rem;
   color: white;
+  margin-top: 0.5rem;
   padding: 0.5rem;
+  border: 3px solid white;
+  border-radius: 5%;
 }
 
 .form-button:hover {
@@ -261,7 +263,6 @@ section {
 }
 
 .welcome {
-  font-family: 'Lora', Georgia, serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,11 +304,12 @@ section {
   width: 500px;
   max-width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 #pass-button {
   font-size: 1rem;
-  font-family: 'Lora', Georgia, serif;
+  border-radius: 5%;
 }
 
 #visitor-name {
@@ -441,8 +443,8 @@ section {
   max-width: 100%;
 }
 
-.main-header p {
-  text-align: center;
+.main-header {
+  font-family: 'Lora', Georgia, serif;
 }
 
 #resume-main {
@@ -555,7 +557,7 @@ section {
 }
 
 #blog-main h3 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #blog-main p {

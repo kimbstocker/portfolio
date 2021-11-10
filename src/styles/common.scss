@@ -23,9 +23,17 @@ body {
     flex-direction: column;
 }
 
-h1, h2, h3 {
+.section-main {
+    flex-grow: 1;
     font-family: 'Lora', Georgia, serif;
-    margin: 0 0 1rem 0;
+
+    button, input {
+        font-family: 'Lora', Georgia, serif;
+    }
+}
+
+h1, h2 {
+    margin: 1rem 0;
 }
 
 section {
@@ -45,9 +53,7 @@ section {
     }
 }
 
-.section-main {
-    flex-grow: 1;
-}
+
 
 .section-footer {
     border-top: 0.08rem solid $primary-color-pastel;
@@ -72,10 +78,7 @@ section {
     align-items: center;
 
     a {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-        padding-top: 0.1em;
-        padding-bottom: 0.25em;
+        padding: 0.1em 0.5rem 0.25rem 0.5rem;
         background-color: $primary-color-pastel;
         margin: 0.25em;
         border-radius: 10%;
@@ -153,7 +156,6 @@ section {
 
     p {
         
-        font-family: 'Lora', Georgia, serif;
         text-align: center;
         font-size: 1.6rem;
         padding: 0;
@@ -169,9 +171,11 @@ section {
 
 .form-button {
     background-color: $primary-color-pastel;
-    margin-top: 1rem;;
     color: white;
+    margin-top: 0.5rem;
     padding: 0.5rem;
+    border: 3px solid white;
+    border-radius: 5%;
 
 }
 
