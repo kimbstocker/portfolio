@@ -541,8 +541,9 @@ section {
   }
 }
 
-.main-header {
+.pdf-link {
   font-family: 'Lora', Georgia, serif;
+  text-align: center;
 }
 
 #resume-main {
@@ -652,6 +653,19 @@ section {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#blog-main figure {
+  margin: 0 1rem;
+}
+
+#blog-main figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  font-style: oblique;
 }
 
 .blog {
@@ -730,9 +744,34 @@ section {
   #blog-main {
     font-size: 0.9rem;
   }
+  #blog-main figcaption {
+    font-size: 0.6rem;
+  }
   .blog-overview .blog-icon-image {
     width: 50px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .blog-summary p {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #blog-main {
+    font-size: 0.8rem;
+  }
+  #blog-main figcaption {
+    font-size: 0.5rem;
+  }
+  #blog-main h3 {
+    font-size: 0.9rem;
+  }
+  .blog-overview .blog-icon-image {
+    width: 40px;
+    height: 40px;
   }
 }
 

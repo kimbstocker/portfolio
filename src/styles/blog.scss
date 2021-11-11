@@ -1,14 +1,24 @@
 #blog-main {
     @include flexitup(column);
+    align-items: center;
 
+    figure {
+        margin: 0 1rem;
+    }
 
+    figcaption {
+        font-size: 0.9rem;
+        text-align: center;
+        font-style: oblique;
+
+    }
 }
 
 .blog {
     @include flexitup(column);
     margin-bottom: 2rem;
 
-// Text component 4 - change margin, font size
+    // Text component 4 - change margin, font size
 
     h3 {
         margin: 0;
@@ -54,6 +64,7 @@
 
 
 .blog-image {
+
     border-radius: 5%;
     max-width: 100%;
 
@@ -82,6 +93,10 @@
     #blog-main {
         font-size: 0.9rem;
 
+        figcaption {
+            font-size: 0.6rem;
+            
+        }
 
     }
 
@@ -89,6 +104,45 @@
         .blog-icon-image {
             width: 50px;
             height: 50px;
+        }
+    }
+
+}
+
+@media screen and (max-width:760px) {
+
+    .blog-summary {
+
+        p {
+            max-width: 90%;
+
+        }
+    }
+
+   
+}
+
+@media screen and (max-width:330px) {
+
+
+    #blog-main {
+        font-size: 0.8rem;
+
+        figcaption {
+            font-size: 0.5rem;
+            
+        }
+        h3 {
+            font-size: 0.9rem;
+        }
+
+
+    }
+
+    .blog-overview {
+        .blog-icon-image {
+            width: 40px;
+            height: 40px;
         }
     }
 
