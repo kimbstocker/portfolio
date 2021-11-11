@@ -14,7 +14,7 @@ function returnname() {
 }
 
 function passName() {
-    document.getElementById("personal-greeting").innerText = "Hi I'll pass! :P";
+    document.getElementById("personal-greeting").innerText = "Hi I'll Pass!";
     document.getElementById("welcome1").style.display = 'none';
     document.getElementById("welcome2").style.display = 'flex';
 

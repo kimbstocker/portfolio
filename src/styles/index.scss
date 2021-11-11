@@ -18,11 +18,19 @@
     margin-bottom: 1rem;
 }
 
+.greeting-emoj {
+    @include flexitup(row);
+}
+
 .greeting {
 
     margin: 0;
     font-size: 1.5rem;
 
+}
+
+#personal-greeting {
+    margin-right: 0.5rem;
 }
 
 .welcome-image {

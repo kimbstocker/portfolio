@@ -1,9 +1,18 @@
 #personal-main {
     @include flexitup(column);
     align-items: center;
-    
-    img{
+
+
+    img {
+        width: 1000px;
+        height: auto;
         max-width: 100%;
         margin: 1rem 0;
+        border-radius: 5%;
+
+    }
+
+    p {
+        max-width: 700px;
     }
 }
