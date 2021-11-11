@@ -1,12 +1,17 @@
 #personal-main {
 
-    h2, p,
+    h2,
+    p,
     button {
-                font-family: 'Dancing Script', cursive;
-                text-align: center;
+        font-family: 'Dancing Script', cursive;
+
     }
 
-    p{
+    h2 {
+        text-align: center;
+    }
+
+    p {
         font-size: 1.2rem;
     }
 
@@ -16,19 +21,21 @@
     }
 
     button {
-        width: 200px;
+        width: 120px;
         height: auto;
         margin: 1rem 0;
         font-size: 1.5rem;
 
-        
+
     }
 
-    #dog {
+    #dog,
+    #coffee {
         background-color: $primary-color;
     }
 
-    #cat {
+    #cat,
+    #tea {
         background-color: $complimentary-color4;
     }
 
@@ -39,18 +46,6 @@
 
 
 }
-
-.this-that {
-    @include flexitup(row);
-    justify-content: space-around;
-
-    button,
-    img {
-        width: 150px;
-        height: auto;
-    }
-}
-
 
 
 .personal-map {
@@ -63,7 +58,7 @@
     img {
         height: auto;
         max-width: 90%;
-        margin: 1.5rem 0;;
+        margin: 1.5rem 0;
         border-radius: 5%;
 
     }
@@ -83,25 +78,3 @@
 }
 
 
-@media screen and (max-width:810px) {
-
-    #this-that-header {
-        max-width: 60%;
-        text-align: center;
-    }
-
-    .personal-map {
-        line-height: 1.3;
-    }
-
-}
-
-
-@media screen and (max-width:375px) {
-
-    .personal-map {
-        line-height: 1.1;
-
-    }
-
-}

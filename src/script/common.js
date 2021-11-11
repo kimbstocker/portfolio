@@ -46,3 +46,14 @@ function ThatCat() {
     document.getElementById("co-exist").style.display = 'block';
 }
     
+function ThisTea() {
+    document.getElementById("tea").style.display = 'none';
+    document.getElementById("coffee").style.display = 'none';
+    document.getElementById("hightea").style.display = 'block';
+}
+
+function ThatCoffee() {
+    document.getElementById("tea").style.display = 'none';
+    document.getElementById("coffee").style.display = 'none';
+    document.getElementById("soylatte").style.display = 'block';
+}
