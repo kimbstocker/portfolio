@@ -33,3 +33,16 @@ function prefillName() {
         document.getElementById("contact-name").value = name;
     }
 }
+
+function ThisDog() {
+    document.getElementById("cat").style.display = 'none';
+    document.getElementById("dog").style.display = 'none';
+    document.getElementById("be-friend").style.display = 'block';
+}
+
+function ThatCat() {
+    document.getElementById("cat").style.display = 'none';
+    document.getElementById("dog").style.display = 'none';
+    document.getElementById("co-exist").style.display = 'block';
+}
+    

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Zen+Old+Mincho:wght@400;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="../script/common.js"></script>
 </head>
 
 <body>
@@ -43,21 +44,40 @@
     </section>
 
 
+
+
     <section class="section-main" id="personal-main">
 
+        <div class"this-that">
+
+            <h2 id="this-that-header">Would you like to play a game of This or That? &#128516;</h2>
+
+            <div class="game-button">
+                <button onclick="ThisDog()" class="play-button" id="dog">Dog</button>
+                <p id="be-friend" style="display: none;">Let's be friend &#x1F609;</p>
+
+                <button onclick="ThatCat()" class="play-button" id="cat">Cat</button>
+                <p id="co-exist" style="display: none;">They're so cute aren't they! &#x1F62C;</p>
+            </div>
+        </div>
+
+
+        <hr>
+
         <!-- Text component 3 -->
-
-        <h2>A Little Bit About Me, Personally!</h2>
-        <p>One <strong><strike>special</strike></strong> fact about me is that I <strong>LOVE</strong> to travel. If you
-            look closely on the map below, you will see where I have been, my favourite places, and where I would
-            like to go next (when this Covid19 restrictions are all over - I hope) &#x1F62C;.</p>
-        <p>
-            Stay tuned to see me turning purple into pink or green &#x1F609;. Also, check out my <a
-                href="../pages/blog.html">Blog</a> for more content about my travel and other nerdy
-            stuff.
-        </p>
-        <img style="" src="../images/Personal World Map.png" alt="a personal world map with color coded">
-
+        <div class="personal-map">
+            <h2>A Little Bit About Me, Personally!</h2>
+            <p>One <strong><strike>special</strike></strong> fact about me is that I <strong>LOVE</strong> to travel. If
+                you
+                look closely on the map below, you will see where I have been, my favourite places, and where I would
+                like to go next (when this Covid19 restrictions are all over - I hope) &#x1F62C;.</p>
+            <p>
+                Stay tuned to see me turning purple into pink or green &#x1F609;. Also, check out my <a
+                    href="../pages/blog.html">Blog</a> for more content about my travel and other nerdy
+                stuff.
+            </p>
+            <img src="../images/Personal World Map.png" alt="a personal world map with color coded">
+        </div>
 
 
 
