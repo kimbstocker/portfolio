@@ -26,12 +26,15 @@ body {
 .section-main {
     flex-grow: 1;
 
-    button, input {
+    button,
+    input {
         font-family: 'Lora', Georgia, serif;
     }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 1rem 0;
     font-family: 'Lora', Georgia, serif;
 
@@ -106,6 +109,8 @@ section {
 
 .footer {
     @include flexitup(row);
+    justify-content: center;
+    align-content: space-between;
 
 }
 
@@ -113,6 +118,7 @@ section {
 
 .footer-nav {
     @include flexitup(row);
+    justify-content: space-around;
 
     a {
         padding-left: 0.5em;
@@ -136,7 +142,6 @@ section {
 .footer-social {
     @include flexitup(row);
     align-items: center;
-    margin-left: 3em;
 
     a {
         display: flex;
@@ -156,7 +161,7 @@ section {
     padding-bottom: 0;
 
     p {
-        
+
         text-align: center;
         font-size: 1.6rem;
         padding: 0;
@@ -183,30 +188,22 @@ section {
 
 .form-button:hover {
     text-shadow: 0px 0px 2px white;
-    
-}
 
-@media screen and (max-width:383px) {
-
-    .footer-nav {
-        justify-content: space-around;
-    }
-}
-
-@media screen and (max-width:430px) {
-
-    .footer-social {
-        margin-left: 0;
-    }
 }
 
 @media screen and (min-width:600px) {
     .footer-left {
         flex-grow: 1;
     }
+
+    .footer-social {
+        margin-left: 2em;
+    }
 }
 
-
-
-
-
+@media screen and (max-width:382px) {
+   
+    .footer-social {
+        margin-top: 1em;
+    }
+}
