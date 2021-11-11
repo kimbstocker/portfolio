@@ -1,19 +1,6 @@
-
-
 #blog-main {
-    @include flexitup(column); 
-    h3 {
-        margin: 0;
-    }
-    p {
-        margin: 0;
-        max-width: 650px;
-        font-size: 1.2rem;
-        
-    } 
-    time, span {
-        font-size: 0.9rem;
-    }
+    @include flexitup(column);
+
 
 }
 
@@ -21,13 +8,37 @@
     @include flexitup(column);
     margin-bottom: 2rem;
 
+// Text component 4 - change margin, font size
+
+    h3 {
+        margin: 0;
+    }
+
+    time,
+    span {
+        font-size: 0.9rem;
+    }
+
+    .blog-date {
+        font-size: 0.5rem;
+        margin: 0;
+
+    }
+
+    .blog-summary {
+        margin: 0 0 1rem 1rem;
+        max-width: 650px;
+
+    }
+
+
 }
 
 .blog-overview {
 
     @include flexitup(row);
     align-items: center;
-    margin-left: 1rem; 
+    margin-left: 1rem;
 
 
     .blog-icon-image {
@@ -37,37 +48,48 @@
         border: 2.5px solid #df9b9b;
         margin-right: 1rem;
     }
-    margin-bottom: 1rem;
-}
-
-.blog-date {
-    font-size: 0.5rem;
-}
 
 
-.blog-summary {
-    margin-left: 1rem;
 }
+
 
 .blog-image {
     border-radius: 5%;
     max-width: 100%;
-    margin-top: 1rem;
+
 }
 
-@media screen and (min-width:800px){
-   .blog-image {
-       max-width: 750px;
-   }
+@media screen and (min-width:800px) {
 
-   #blog-main {
-       align-content: center;
-   }
-   
+
+    #blog-main {
+        align-content: center;
+        font-size: 1.2rem;
+
+
+    }
+
+    .blog-image {
+        max-width: 750px;
+    }
+
 }
 
 
+@media screen and (max-width:375px) {
 
 
+    #blog-main {
+        font-size: 0.9rem;
 
 
+    }
+
+    .blog-overview {
+        .blog-icon-image {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+}

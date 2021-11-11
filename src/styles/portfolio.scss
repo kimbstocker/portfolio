@@ -17,12 +17,16 @@
 
 }
 
+
 .project {
     @include flexitup(column);
     align-items: center;
     margin: 1rem;
-
     
+}
+
+.intro {
+    max-width: 80%;
 }
 
 #project1 {
@@ -48,6 +52,7 @@
     justify-content: center;
     margin-top: 2rem;
 }
+
 
 
 @media screen and (min-width: 1080px) {

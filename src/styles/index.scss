@@ -1,4 +1,6 @@
 #homepage-main {
+
+    // Text component 1 style, change font family
     font-family: 'Lora', Georgia, serif;
 
 }
@@ -21,6 +23,8 @@
 .greeting-emoj {
     @include flexitup(row);
 }
+
+// Text component 1 style, change size and margin
 
 .greeting {
 
