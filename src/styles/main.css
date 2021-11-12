@@ -298,27 +298,25 @@ section {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
   max-width: 500px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.greeting-emoj {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+#welcome-text1 {
+  background: #ffd2d1;
+  line-height: 1.5;
+  height: 40%;
+  padding: 3rem;
+  position: relative;
+  border-radius: 25px 75px;
 }
 
 .greeting {
   margin: 0;
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 #personal-greeting {
@@ -335,18 +333,35 @@ section {
 #pass-button {
   border-radius: 5%;
   text-align: left;
+  width: 150px;
 }
 
 #visitor-name {
-  height: 1.2rem;
+  height: 1.5rem;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 900px) {
   .welcome {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #welcome-text1 {
+    padding: 3.5rem;
+  }
+  #welcome-text1:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid #ffd2d1;
+    border-bottom: 13px solid transparent;
   }
 }
 
