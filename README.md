@@ -27,7 +27,7 @@ Encourage recruiters to revisit for improved contents/coding skills & hopefully 
 
 ## Sitemap
 
-https://github.com/kimbstocker/KimStocker_T1A2/blob/master/docs/Kim_Stocker_T1A2_SiteMap.pdf
+![Site map](docs/Sitemap.png "Sitemap")
 
 ## Screenshots
 
