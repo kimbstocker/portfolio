@@ -57,3 +57,27 @@ function ThatCoffee() {
     document.getElementById("coffee").style.display = 'none';
     document.getElementById("soylatte").style.display = 'block';
 }
+
+function ThisNetflix() {
+    document.getElementById("netflix").style.display = 'none';
+    document.getElementById("youtube").style.display = 'none';
+    document.getElementById("binge").style.display = 'block';
+}
+
+function ThatYoutube() {
+    document.getElementById("netflix").style.display = 'none';
+    document.getElementById("youtube").style.display = 'none';
+    document.getElementById("recipe").style.display = 'block';
+}
+
+function ThisIOS() {
+    document.getElementById("ios").style.display = 'none';
+    document.getElementById("android").style.display = 'none';
+    document.getElementById("converted").style.display = 'block';
+}
+
+function ThatAndroid() {
+    document.getElementById("ios").style.display = 'none';
+    document.getElementById("android").style.display = 'none';
+    document.getElementById("respect").style.display = 'block';
+}

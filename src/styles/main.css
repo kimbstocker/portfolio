@@ -780,13 +780,12 @@ section {
   }
 }
 
-#personal-main h2,
-#personal-main p,
-#personal-main button {
+#personal-main {
   font-family: 'Dancing Script', cursive;
 }
 
-#personal-main h2 {
+#personal-main h2, #personal-main button {
+  font-family: 'Dancing Script', cursive;
   text-align: center;
 }
 
@@ -794,39 +793,37 @@ section {
   font-size: 1.2rem;
 }
 
-#personal-main .game-button {
+.game-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-#personal-main button {
+.game-button button {
   width: 120px;
   height: auto;
   margin: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
-#personal-main #dog,
-#personal-main #coffee {
+.this-that {
+  margin-bottom: 1.5rem;
+}
+
+#dog,
+#coffee, #netflix, #android {
   background-color: #dd8c8c;
 }
 
-#personal-main #cat,
-#personal-main #tea {
+#cat,
+#tea, #youtube, #ios {
   background-color: #dfd6fa;
 }
 
-#personal-main hr {
+hr {
   color: #dd8c8c;
   width: 60%;
 }
@@ -853,13 +850,28 @@ section {
   border-radius: 5%;
 }
 
-.personal-map h2 {
-  font-family: 'Dancing Script', cursive;
-}
-
 .personal-map p {
   max-width: 80%;
+  text-align: justify;
   text-indent: 30px;
   line-height: 1.5;
   margin: 0;
+}
+
+@media screen and (min-width: 810px) {
+  .this-that {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .games4 {
+    margin: 0 1rem;
+  }
 }

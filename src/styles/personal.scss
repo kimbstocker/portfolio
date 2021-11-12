@@ -1,13 +1,8 @@
 #personal-main {
+    font-family: 'Dancing Script', cursive;
 
-    h2,
-    p,
-    button {
+    h2, button  {
         font-family: 'Dancing Script', cursive;
-
-    }
-
-    h2 {
         text-align: center;
     }
 
@@ -15,37 +10,45 @@
         font-size: 1.2rem;
     }
 
-    .game-button {
-        @include flexitup(row);
-        justify-content: center;
-    }
+}
+
+
+.game-button {
+    display: flex;
+    justify-content: center;
 
     button {
         width: 120px;
         height: auto;
         margin: 1rem 0;
-        font-size: 1.5rem;
-
-
+        font-size: 1.3rem;
+    
+    
     }
-
-    #dog,
-    #coffee {
-        background-color: $primary-color;
-    }
-
-    #cat,
-    #tea {
-        background-color: $complimentary-color4;
-    }
-
-    hr {
-        color: $primary-color;
-        width: 60%;
-    }
-
 
 }
+
+.this-that {
+    margin-bottom: 1.5rem;
+}
+
+
+#dog,
+#coffee, #netflix, #android {
+    background-color: $primary-color;
+}
+
+#cat,
+#tea, #youtube, #ios {
+    background-color: $complimentary-color4;
+}
+
+hr {
+    color: $primary-color;
+    width: 60%;
+}
+
+
 
 
 .personal-map {
@@ -65,12 +68,10 @@
 
     // Text component 3 - Change font family, font size (above) text indentation, line height.
 
-    h2 {
-        font-family: 'Dancing Script', cursive;
-    }
 
     p {
         max-width: 80%;
+        text-align: justify;
         text-indent: 30px;
         line-height: 1.5;
         margin: 0;
@@ -78,3 +79,16 @@
 }
 
 
+@media screen and (min-width:810px) {
+    .this-that {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .games4 {
+        margin: 0 1rem;
+    }
+
+
+}
