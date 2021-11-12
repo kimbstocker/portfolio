@@ -641,6 +641,8 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0;
   }
   .resume {
