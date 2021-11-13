@@ -48,4 +48,5 @@ Encourage recruiters to revisit for improved contents/coding skills & hopefully 
 
 - Html
 - CSS
+- SCSS
 - JavaScript
