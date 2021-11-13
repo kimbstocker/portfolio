@@ -1,0 +1,365 @@
+commit fa49168da03856fbc56e67cd8d99d425420162f7
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sun Nov 14 00:07:16 2021 +1100
+
+    add Scss to language in readme
+
+commit 958593a62cc69b20f42d9bcd547d195073a322e8
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sun Nov 14 00:03:23 2021 +1100
+
+    add screenshots to readme doc
+
+commit d747629c0527aed06244a94db48a92cf99834a3e
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 23:43:39 2021 +1100
+
+    link to deployed website
+
+commit ca3b99db928cbfc64aa55630e522eb4b2fa18599
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 23:36:19 2021 +1100
+
+    add subresource integrity
+
+commit 09c0b06beb999aeabe4aaab7cc96e51c506bc2cf
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 23:21:32 2021 +1100
+
+    add dot
+
+commit ce55c7a569a11a4e8d53706ea20fea3063bcf726
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 23:15:32 2021 +1100
+
+    tidy JS
+
+commit 5a2eebcf5d34c6809fc055612b6d7977a21a7942
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 22:56:27 2021 +1100
+
+    tidy up text and page
+
+commit e63b162ea7b141fd9b121ded6c63d2b8539607e6
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 22:38:50 2021 +1100
+
+    add animation to Twitter bird
+
+commit 16dc9aa96d6abaf9c20a4c22bf29f8aad7ce48c5
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 19:02:40 2021 +1100
+
+    gitignore file
+
+commit 298b12fa7eb93be258bb2c3ccd80ad155756c55e
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 19:01:41 2021 +1100
+
+    Formatting
+
+commit 7cee1cbffa2243475ed38ad36591c011693821e5
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 13 00:09:39 2021 +1100
+
+    restyle welcome message div
+
+commit 8d08fb8686a9ad44306642364a28c319676aaeeb
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 22:35:53 2021 +1100
+
+    add sitemap as image instead of pdf file
+
+commit 07a19eb4b2e59b5534e3a90b8fd27bc20be4a763
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 22:31:04 2021 +1100
+
+    fix sitemap pdf link in readme
+
+commit cb1347d9b7abb61536684a0ba166f83aac97da1f
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 22:26:19 2021 +1100
+
+    add content to Readme document
+
+commit 7d1b4f12fa19c4d35b4dafbaf609b0a1c16c3df9
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 12:59:35 2021 +1100
+
+    change greeting message
+
+commit 270ad4dd034c823a20b6e839219f6a974e8df8ff
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 12:52:21 2021 +1100
+
+    add more this or that questions
+
+commit d18aa6d0a283dbdd46ea0d3953594fd18362f095
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 10:08:24 2021 +1100
+
+    update slide deck
+
+commit 812ea51c9a514f57fcdbae607197b72ba298b99e
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 12 01:07:20 2021 +1100
+
+    add presentation slides
+
+commit bc7f089e70f388d72d2daf6bd2858b9977d7414e
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 23:55:39 2021 +1100
+
+    add another this that game question
+
+commit 9dde3fd5870e3e466abf665f7ac807ac6f30b88b
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 23:27:18 2021 +1100
+
+    add this that game on personal page
+
+commit fa1311ce84c3532bf436dd47d15b2980ad72b80c
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 20:56:37 2021 +1100
+
+    fix footer alignment
+
+commit d5153480c570b28589966c530a42fe1e10e23228
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 18:04:09 2021 +1100
+
+    add figure and figcaption to blog page, restyle with media queries for smaller viewports size
+
+commit eb9022ef048a3f4a596fbca228ac6036016747aa
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 16:38:14 2021 +1100
+
+    add comments for graphical content components
+
+commit 8f6c82a653a6e3d60ae1dbad2fa0fc3bdcdf214a
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 16:12:35 2021 +1100
+
+    add required comments, restyle portfolio page
+
+commit d6d62ed4168eaaf7978f58592559419855204b12
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 14:37:21 2021 +1100
+
+    add and change style for a blog overview
+
+commit 39756ab626d371bc6135cb6df1eade7946307ae2
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 11 00:45:18 2021 +1100
+
+    add personal page, world map section
+
+commit c2664054c358b0917455cf02f8d71b31c40cafdf
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 10 23:55:07 2021 +1100
+
+    add & finish styling portfolio page
+
+commit 65cfcbcaa4c253dcb6c790dfa1fcd887d49ddabe
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 10 11:49:11 2021 +1100
+
+    complete styling texts
+
+commit d951ac434bb8518492041389379a22a31688e0e2
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 10 11:07:57 2021 +1100
+
+    change font family for section main, style blog page
+
+commit 3ce66a108a9c432fe4787c66d93a0eba42a23a64
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 10 01:14:38 2021 +1100
+
+    add demo video to portfolio page
+
+commit 95efe53d93c11ba9bcfe2e8b08bce6c5b664d5d1
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 9 23:25:22 2021 +1100
+
+    add animated bird to contact page
+
+commit b36d780e0808d951edd37003a9ac189d1ecbc120
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 9 23:12:02 2021 +1100
+
+    tidy up blog page
+
+commit 8e8f0a3a5a625825da4fdcf9538e7c0ccbd48c55
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 9 16:01:26 2021 +1100
+
+    show dynamic name on contact page elements
+
+commit ed139c42af47a859e93933e5ea3a8cc0996331d6
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 9 00:48:08 2021 +1100
+
+    Move JS code to a JS file
+
+commit b06d9f64189440dc2514868152f2791cbfb7f8e6
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 9 00:29:21 2021 +1100
+
+    finish styling homepage
+
+commit a7cf12a2039fa0714fedd489ffeb3377a55e4496
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Mon Nov 8 18:14:35 2021 +1100
+
+    tidy up js code for homepage
+
+commit 2c8b5e52d84a31634fd39b465e5e5a810763bc09
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Mon Nov 8 13:01:22 2021 +1100
+
+    add js function to display dynamic name
+
+commit 0b9bcef2494693561526e221e355b204c1992370
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Mon Nov 8 00:59:28 2021 +1100
+
+    Style home page, try JS unsucessfully
+
+commit fbe1fd1e4054f7e15e64f73ebb0fc5c1cac3c916
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sun Nov 7 23:00:00 2021 +1100
+
+    change box width on resume page
+
+commit d5f3a29362debef34fedb0c9865ad37516c27771
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sun Nov 7 00:18:26 2021 +1100
+
+    add home page
+
+commit 4fe1b92b1927998b22861eeb0103893be6b1b3dc
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 6 23:08:57 2021 +1100
+
+    style resume page
+
+commit 4f79360704e5d54a764cf74ceab6a1fc4438d91d
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Sat Nov 6 16:45:06 2021 +1100
+
+    style resume page
+
+commit 8922fa04241d6d210a1352e451c39a7d211a9788
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 5 13:34:32 2021 +1100
+
+    add media query to style blog page
+
+commit 9f4c4d41e50a9b33f6e4bbc56df0f99f31d6cf68
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 5 11:28:30 2021 +1100
+
+    style blog page in mobile view
+
+commit ca86776d0f5a62d9eb9359c8da1b8aa75fdd341f
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 5 00:41:34 2021 +1100
+
+    style the blog page in mobile screen
+
+commit d5ea71ebdf07667d9a89d8bf46a6e64d6203e886
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Nov 5 00:13:38 2021 +1100
+
+    Add blog page and tidy up images
+
+commit 463829348c22e8de6d0d78844aeb72cf18ede870
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 23:37:57 2021 +1100
+
+    Change contact-social images to suit bigger screen
+
+commit 59674948d0409974b01e5b9ee6a8d2ba5f7338fb
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 23:06:05 2021 +1100
+
+    change header style to suit phone screen
+
+commit c464433c9cb349c965ca07d2157c29520bf876a9
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 21:57:45 2021 +1100
+
+    add media query for footer style
+
+commit 75732a1e7dfae0172832572442c7ba8faf091f48
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 17:08:00 2021 +1100
+
+    restyle footer
+
+commit daeeff990d0c13203fd95fb795e5103787989957
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 16:11:26 2021 +1100
+
+    add contact page divider & style footer
+
+commit 298f6bfe15bb9005de7e37a80a0e5c4e27ed540c
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 16:08:53 2021 +1100
+
+    style contact page
+
+commit 12c564f0f4ead120b81766d696058299ec64732f
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 00:46:22 2021 +1100
+
+    change hover style
+
+commit 30fbd548ac9404dd0ac640ac674bf9e51ba7bc17
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Thu Nov 4 00:13:41 2021 +1100
+
+    Center body with max width
+
+commit 06b4f41fb365b5555aed098a46927c987791a6a3
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 3 23:50:29 2021 +1100
+
+    Add contact page
+
+commit cd08cccdbb96ad9465672970e41cf4d03779a9b3
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 3 18:17:03 2021 +1100
+
+    add template header and footer to all pages
+
+commit 54da7e8d46fc662e67d3072b3d37ff95b83ae3da
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 3 17:22:19 2021 +1100
+
+    Style header and footer
+
+commit 85d159c3d8cce21afe443ed5ed76bbae8c5ceb1e
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Wed Nov 3 16:28:04 2021 +1100
+
+    Save work
+
+commit fe1fb4d5f29a478c0f488a210300c4e367504a64
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Tue Nov 2 13:29:46 2021 +1100
+
+    add header style
+
+commit a9e4cb6d09b7e1a65bb6dbf3c102367a706680f2
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Mon Nov 1 23:54:45 2021 +1100
+
+    add template page with header and footer
+
+commit 4b62fff853c1c0eb611347e5aa0ba416a091105f
+Author: Kim Stocker <kimbstocker@gmail.com>
+Date:   Fri Oct 29 16:44:39 2021 +1100
+
+    create empty files
