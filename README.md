@@ -31,7 +31,13 @@ Encourage recruiters to revisit for improved contents/coding skills & hopefully 
 
 ## Screenshots
 
-
+![Home Page](docs/Page%20Screenshots/Screen%20Shot%20-%20home.png "HomePage")
+![Welcome Page](docs/Page%20Screenshots/Screen%20Shot%20-%20welcome.png "WelcomePage")
+![Contact Page](docs/Page%20Screenshots/Screen%20Shot%20-%20contact.png "ContactPage")
+![Portfolio Page](docs/Page%20Screenshots/Screen%20Shot%20-%20%20portfolio.png "PorfolioPage")
+![Resume Page](docs/Page%20Screenshots/Screen%20Shot%20-%20resume.png "ResumePage")
+![Personal Page](docs/Page%20Screenshots/Screen%20Shot%20-%20personal.png "PersonalPage")
+![Blog Page](docs/Page%20Screenshots/Screen%20Shot%20-%20blog.png "BlogPage")
 
 ## Target audience
 
