@@ -1,8 +1,6 @@
 #homepage-main {
-
     // Text component 1 style, change font family
-    font-family: 'Lora', Georgia, serif;
-
+    font-family: "Lora", Georgia, serif;
 }
 
 .welcome {
@@ -12,7 +10,6 @@
     margin: 1rem;
 }
 
-
 .welcome-text {
     @include flexitup(column);
     align-content: center;
@@ -21,7 +18,6 @@
 }
 
 #welcome-text1 {
-
     background: $complimentary-color2;
     line-height: 1.5;
     height: 40%;
@@ -30,16 +26,12 @@
     border-radius: 25px 75px;
 }
 
-
-
 // Text component 1 style, change size and margin
 
 .greeting {
-
     margin: 0;
     font-size: 1.5rem;
     line-height: 1.5;
-
 }
 
 #personal-greeting {
@@ -65,13 +57,10 @@
     height: 1.5rem;
 }
 
-
-@media screen and (min-width:900px) {
-
+@media screen and (min-width: 900px) {
     .welcome {
         flex-direction: row;
         justify-content: space-around;
-
     }
 
     #welcome-text1 {
@@ -89,5 +78,4 @@
         border-left: 26px solid $complimentary-color2;
         border-bottom: 13px solid transparent;
     }
-
 }

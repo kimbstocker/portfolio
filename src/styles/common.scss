@@ -1,14 +1,13 @@
 // Common styling for all pages
 
-
-@mixin flexitup ($direction) {
+@mixin flexitup($direction) {
     display: flex;
     flex-direction: $direction;
     flex-wrap: wrap;
 }
 
 html {
-    font-family: 'Zen Old Mincho', Georgia, serif;
+    font-family: "Zen Old Mincho", Georgia, serif;
     height: 100%;
     margin: 0;
     color: $primary-text-color;
@@ -28,7 +27,7 @@ body {
 
     button,
     input {
-        font-family: 'Lora', Georgia, serif;
+        font-family: "Lora", Georgia, serif;
     }
 }
 
@@ -36,8 +35,7 @@ h1,
 h2,
 h3 {
     margin: 1rem 0;
-    font-family: 'Lora', Georgia, serif;
-
+    font-family: "Lora", Georgia, serif;
 }
 
 section {
@@ -57,24 +55,18 @@ section {
     }
 }
 
-
-
 .section-footer {
     border-top: 0.08rem solid $primary-color;
 }
 
-
 .header {
     @include flexitup(row);
-
 }
 
 .logo {
     margin-right: 1em;
     align-self: flex-start;
-
 }
-
 
 .header-nav {
     @include flexitup(row);
@@ -111,10 +103,7 @@ section {
     @include flexitup(row);
     justify-content: center;
     align-content: space-between;
-
 }
-
-
 
 .footer-nav {
     @include flexitup(row);
@@ -136,7 +125,6 @@ section {
 
 .footer-links {
     @include flexitup(column);
-
 }
 
 .footer-social {
@@ -154,19 +142,14 @@ section {
     }
 }
 
-
-
-
 .main-header {
     padding-bottom: 0;
 
     p {
-
         text-align: center;
         font-size: 1.6rem;
         padding: 0;
         margin-bottom: 0;
-
     }
 
     a {
@@ -183,15 +166,13 @@ section {
     border: 3px solid white;
     border-radius: 5%;
     font-size: 1rem;
-
 }
 
 .form-button:hover {
     text-shadow: 0px 0px 2px white;
-
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
     .footer-left {
         flex-grow: 1;
     }
@@ -201,8 +182,7 @@ section {
     }
 }
 
-@media screen and (max-width:382px) {
-   
+@media screen and (max-width: 382px) {
     .footer-social {
         margin-top: 1em;
     }

@@ -2,7 +2,6 @@
     @include flexitup(column);
     align-items: center;
 
-
     video {
         max-width: 100%;
     }
@@ -15,15 +14,12 @@
     h3 {
         text-align: center;
     }
-
 }
-
 
 .project {
     @include flexitup(column);
     align-items: center;
     margin: 1rem;
-    
 }
 
 .intro {
@@ -36,7 +32,6 @@
     hr {
         width: 25%;
     }
-
 }
 
 #project2 {
@@ -46,22 +41,16 @@
     }
 }
 
-
-
 .mobile-videos {
     @include flexitup(row);
     justify-content: center;
     margin-top: 2rem;
 }
 
-
-
 @media screen and (min-width: 1080px) {
-
     .project {
         flex-direction: row;
         justify-content: space-around;
-
     }
 
     .intro {
@@ -71,5 +60,4 @@
     .mobile-videos {
         width: 800px;
     }
-
 }

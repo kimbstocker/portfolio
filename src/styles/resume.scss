@@ -1,5 +1,5 @@
 .pdf-link {
-    font-family: 'Lora', Georgia, serif;
+    font-family: "Lora", Georgia, serif;
     text-align: center;
 }
 
@@ -20,7 +20,6 @@
         margin: 0;
     }
 
-
     ul {
         padding-left: 1rem;
         margin: 1rem 0;
@@ -32,39 +31,29 @@
     margin: 1rem;
     padding: 1em 2em;
     border-radius: 5%;
-
 }
 
 // Graphical component 4 - use box, box shadow etc. to display div as sections
 
-
 #skills {
-
-
     background-color: $adjacent-color3;
     box-shadow: 8px 8px 16px #e49394;
 
     ul {
         margin-top: 0;
     }
-
 }
 
 #experience {
-
     background-color: $adjacent-color1;
     box-shadow: 8px 8px 16px #f1b1d1;
-
-
 }
 
 // Text component 2 - change margin, use appropriate headings to aid accessibility
 
 #education {
-
     background-color: $complimentary-color2;
     box-shadow: 8px 8px 16px #eeabaa;
-
 
     p {
         margin: 0;
@@ -82,7 +71,6 @@
 }
 
 @media screen and (min-width: 1080px) {
-
     #resume-main {
         flex-direction: row;
         align-content: center;

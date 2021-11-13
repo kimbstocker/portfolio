@@ -1,5 +1,4 @@
 
-
 function returnname() {
     var x = document.getElementById("name-input");
     var name = "";
@@ -45,7 +44,7 @@ function ThatCat() {
     document.getElementById("dog").style.display = 'none';
     document.getElementById("co-exist").style.display = 'block';
 }
-    
+
 function ThisTea() {
     document.getElementById("tea").style.display = 'none';
     document.getElementById("coffee").style.display = 'none';

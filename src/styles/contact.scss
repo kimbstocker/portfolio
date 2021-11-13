@@ -1,5 +1,5 @@
 #thank-name {
-    font-family: 'Lora', Georgia, serif;
+    font-family: "Lora", Georgia, serif;
     text-align: center;
     font-size: 1.7rem;
     font-weight: bold;
@@ -7,17 +7,13 @@
     width: 100%;
 }
 
-
 .contacts {
     @include flexitup(column);
-    
 }
-
 
 .contact-now {
     @include flexitup(column);
     align-content: center;
-
 }
 
 .contact-social {
@@ -25,9 +21,7 @@
     justify-content: center;
 }
 
-
 .contact-later {
-
     @include flexitup(column);
 
     h1 {
@@ -39,7 +33,6 @@
         height: 50px;
         margin: 0.25rem;
     }
-
 }
 
 #bird {
@@ -49,15 +42,12 @@
     margin-bottom: 0;
     padding-bottom: 0;
     transform: rotate(25deg);
+}
 
-
-} 
-
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
     .contacts {
         flex-direction: row;
         justify-content: space-around;
-      
     }
 
     .contact-social {
