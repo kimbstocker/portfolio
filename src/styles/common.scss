@@ -110,10 +110,8 @@ section {
     justify-content: space-around;
 
     a {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-        padding-top: 0.1em;
-        padding-bottom: 0.25em;
+        padding: 0.1em 0.5rem 0.25rem 0.5rem;
+        margin: 1rem;
         color: $primary-color;
         font-weight: bold;
     }
