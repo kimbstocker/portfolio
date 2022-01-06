@@ -79,3 +79,112 @@
         border-bottom: 13px solid transparent;
     }
 }
+
+.type-effect p {
+    border-right: 0.15em solid $primary-color;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type-effect {
+    overflow: hidden;
+}
+
+.type-effect p:nth-child(1) {
+    width: 4.5em;
+    animation: type 2s steps(10, end);
+    animation-fill-mode: forwards;
+}
+
+.type-effect p:nth-child(2) {
+    width: 12em;
+    opacity: 0;
+    animation: type2 4s steps(25, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.type-effect p:nth-child(3) {
+    width: 8em;
+    opacity: 0;
+    animation: type3 3.5s steps(15, end);
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+.type-effect p:nth-child(4) {
+    width: 7.5em;
+    opacity: 0;
+    animation: type4 3s steps(14, end), blink 0.5s step-end infinite alternate;
+    animation-delay: 9.5s;
+    animation-fill-mode: forwards;
+}
+
+.type-effect p:nth-child(5) {
+    animation-delay: 12.5s;
+}
+.type-effect p:nth-child(6) {
+    animation-delay: 12.5s;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: 0.15em solid $primary-color;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: 0.15em solid $primary-color;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: 0.15em solid $primary-color;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type4 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

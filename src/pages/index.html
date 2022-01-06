@@ -28,7 +28,7 @@
                 <a href="index.html"><img src="../images/Kim_Stocker_T1A2_Logo.jpg" alt="a personal logo">
                 </a>
             </div>
-            
+
             <div class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
@@ -44,7 +44,7 @@
 
 
         </header>
-       
+
 
     </section>
 
@@ -56,19 +56,20 @@
             <div class="welcome-text" id="welcome-text1">
 
                 <!-- Text component 1 -->
+                <div class="type-effect">
+                    <p class="greeting">Hi there!</p>
+                    <p>Welcome to my portfolio!</p>
+                    <p>My name is Kim.</p>
+                    <p>How about you?</p>
+                    <form id="name-input" onsubmit="greetName(); return false;">
+                        <label>
+                            <input type="text" name="fname" id="visitor-name" placeholder="Enter your name here">
+                        </label>
+                    </form>
+                    <button onclick="greetNamePass()" class="form-button" id="pass-button">I'll pass! Thanks!</button>
+                </div>
 
-                <p class="greeting">Hi there!</p>
-                <p>
-                    Welcome to my portfolio!<br>
-                    My name is Kim.<br>
-                    How about you?
-                </p>
-                <form id="name-input" onsubmit="greetName(); return false;">
-                    <label>
-                        <input type="text" name="fname" id="visitor-name" placeholder="Enter your name here">
-                    </label>
-                </form>
-                <button onclick="greetNamePass()" class="form-button" id="pass-button">I'll pass! Thanks!</button>
+
             </div>
 
             <div class="welcome-image" id="profile-pic">
