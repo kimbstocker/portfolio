@@ -1,90 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/main.css"
-        integrity="sha512-vEV9/H8Nt+s0tgJ0OfLPv83y36L5YeL3On4F3YXhy4P7i2QmoIZHBm1u3azWr92dW8Rbw8i24ydzg5atGZA8fQ==">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- No subresource integrity for Google Fonts: https://github.com/google/fonts/issues/473 -->
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Zen+Old+Mincho:wght@400;900&display=swap"
-        rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 </head>
-
 <body>
-    <section class="section-header">
 
-        <header class="header">
-            <div class="logo">
-                <a href="index.html"><img src="../images/Kim_Stocker_T1A2_Logo.jpg" alt="a personal logo">
-                </a>
-            </div>
-            <div class="header-left">
-                <nav class="header-nav" id="header-nav-left">
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-                    <a href="index.html">Home</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </div>
-            <div class="header-right">
-                <nav class="header-nav" id="header-nav-right">
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="resume.html">Resume</a>
-                    <a href="personal.html">Personal</a>
-                    <a href="blog.html">Blog</a>
-                </nav>
-            </div>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-        </header>
+<div style="padding-left:16px">
+  <h3>Vertical Mobile Navbar</h3>
+  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+</div>
 
-    </section>
+<!-- End smartphone / tablet look -->
+</div>
 
-
-    <section class="section-main">
-
-
-    </section>
-
-
-
-    <section class="section-footer">
-
-        <footer class="footer">
-            <div class="footer-left">
-            </div>
-            <nav class="footer-nav">
-                <div class="footer-links">
-                    <a href="index.html">Home</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="footer-links">
-                    <a href="personal.html">Personal</a>
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="footer-links">
-                    <a href="resume.html">Resume</a>
-                    <a href="blog.html">Blog</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://github.com/kimbstocker" target="_blank">
-                        <img src="../images/GitHub.jpg" alt="GitHub logo">
-                    </a>
-                    <a href="https://www.linkedin.com/in/kim-stocker-83547217" target="_blank">
-                        <img src="../images/LinkedIn.jpg" alt="linkedin logo">
-                    </a>
-                    <a href="https://twitter.com/KimStocker7" target="_blank">
-                        <img src="../images/Twitter.jpg" alt="Twitter logo">
-                    </a>
-                </div>
-            </nav>
-        </footer>
-
-    </section>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 </body>
-
 </html>

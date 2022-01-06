@@ -21,50 +21,21 @@ function prefillName() {
     }
 }
 
-function clickedDog() {
-    document.getElementById("cat").style.display = 'none';
-    document.getElementById("dog").style.display = 'none';
-    document.getElementById("be-friend").style.display = 'block';
+
+function ClickedButton(clicked_id) {
+    var y = clicked_id; 
+    var clickedid = clicked_id + "-clicked";
+    document.getElementById(y).style.display = "none";
+    document.getElementById(clickedid).style.display = "block";
 }
 
-function clickedCat() {
-    document.getElementById("cat").style.display = 'none';
-    document.getElementById("dog").style.display = 'none';
-    document.getElementById("co-exist").style.display = 'block';
+
+function DropDownMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
 }
 
-function clickedTea() {
-    document.getElementById("tea").style.display = 'none';
-    document.getElementById("coffee").style.display = 'none';
-    document.getElementById("hightea").style.display = 'block';
-}
-
-function clickedCoffee() {
-    document.getElementById("tea").style.display = 'none';
-    document.getElementById("coffee").style.display = 'none';
-    document.getElementById("soylatte").style.display = 'block';
-}
-
-function clickedNetflix() {
-    document.getElementById("netflix").style.display = 'none';
-    document.getElementById("youtube").style.display = 'none';
-    document.getElementById("binge").style.display = 'block';
-}
-
-function clickedYouTube() {
-    document.getElementById("netflix").style.display = 'none';
-    document.getElementById("youtube").style.display = 'none';
-    document.getElementById("recipe").style.display = 'block';
-}
-
-function clickedIOS() {
-    document.getElementById("ios").style.display = 'none';
-    document.getElementById("android").style.display = 'none';
-    document.getElementById("converted").style.display = 'block';
-}
-
-function clickedAndroid() {
-    document.getElementById("ios").style.display = 'none';
-    document.getElementById("android").style.display = 'none';
-    document.getElementById("respect").style.display = 'block';
-}
