@@ -145,7 +145,7 @@ a.icon {
 
 .footer-nav a {
   padding: 0.1em 0.5rem 0.25rem 0.5rem;
-  margin: 1rem;
+  margin: 0 1rem 1rem 0;
   color: #dd8c8c;
   font-weight: bold;
 }
