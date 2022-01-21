@@ -20,6 +20,7 @@
     @include flexitup(column);
     align-items: center;
     margin: 1rem;
+    
 }
 
 .intro {
@@ -32,6 +33,7 @@
     hr {
         width: 25%;
     }
+   
 }
 
 #project2 {
@@ -39,6 +41,14 @@
     hr {
         width: 25%;
     }
+    
+}
+
+#project3 {
+    hr {
+        width: 25%;
+    }
+    
 }
 
 .mobile-videos {

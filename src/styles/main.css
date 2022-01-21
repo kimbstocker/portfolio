@@ -613,6 +613,10 @@ a.icon {
   width: 25%;
 }
 
+#project3 hr {
+  width: 25%;
+}
+
 .mobile-videos {
   display: -webkit-box;
   display: -ms-flexbox;
