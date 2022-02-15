@@ -1,0 +1,18 @@
+.blog1 {
+    @include flexitup(column);
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 1rem;
+    #blog1-overview {
+        @include flexitup(column);
+    }
+    #blog1-summary, #blog1-image {
+        @include: flexitup(column);
+        width: 700px;
+        max-width: 100%;
+    }
+   
+
+}
+
+
