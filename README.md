@@ -1,6 +1,6 @@
 # Link to my published Portfolio
 
-https://kimbstocker.github.io/KBS-Portfolio
+https://kimbstocker.github.io/portfolio/
 
 # Link to my GitHub Repo
 
