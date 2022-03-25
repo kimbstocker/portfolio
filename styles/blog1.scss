@@ -1,18 +1,42 @@
+blog1-main {
+    @include flexitup(column);
+    justify-content: space-between
+}
+
 .blog1 {
     @include flexitup(column);
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
     margin: 1rem;
-    #blog1-overview {
-        @include flexitup(column);
-    }
-    #blog1-summary, #blog1-image {
-        @include: flexitup(column);
-        width: 700px;
-        max-width: 100%;
-    }
-   
+    max-width: 100%;   
 
 }
 
 
+#blog1-overview {
+    @include flexitup(row);
+    align-content: flex-start;
+    margin: 0;
+}
+
+#blog1-image {
+    width: 350px;
+}
+
+.blog-figure {
+    margin: 0;
+
+}
+
+#blog1-summary {
+    // width: 550px;
+    text-align: justify; 
+
+}
+
+#blog1-date {
+    margin-top: 0;
+}
+.blog-h1 {
+    margin-bottom: 0.25rem;
+}
