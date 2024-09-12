@@ -1,88 +1,87 @@
 #homepage-main {
-    // Text component 1 style, change font family
-    font-family: "Lora", Georgia, serif;
+  // Text component 1 style, change font family
+  font-family: "Lora", Georgia, serif;
 }
 
 .welcome {
-    @include flexitup(column);
-    justify-content: space-around;
-    align-content: space-around;
-    margin: 1rem;
+  @include flexitup(column);
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 1rem;
 }
 
 .welcome-text {
-    @include flexitup(column);
-    align-content: center;
-    max-width: 500px;
-    margin-bottom: 1.5rem;
+  @include flexitup(column);
+  align-content: center;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
 }
 
 #welcome-text1 {
-    background: $complimentary-color2;
-    line-height: 1.5;
-    height: 40%;
-    padding: 3rem;
-    position: relative;
-    border-radius: 25px 75px;
+  background: $complimentary-color2;
+  line-height: 1.5;
+  height: 40%;
+  padding: 3rem;
+  position: relative;
+  border-radius: 25px 75px;
 }
 
 // Text component 1 style, change size and margin
 
 .greeting {
-    margin: 0;
-    font-size: 1.5rem;
-    line-height: 1.5;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 #personal-greeting {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .welcome-image {
-    img {
-        width: 500px;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-    }
+  img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
 }
 
 #pass-button {
-    border-radius: 5%;
-    text-align: left;
-    width: 150px;
+  border-radius: 5px;
+  text-align: left;
+  width: 150px;
 }
 
 #visitor-name {
-    height: 1.5rem;
+  height: 1.5rem;
 }
 
 @media screen and (min-width: 900px) {
-    .welcome {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  .welcome {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    #welcome-text1 {
-        padding: 3.5rem;
-    }
+  #welcome-text1 {
+    padding: 3.5rem;
+  }
 
-    #welcome-text1:after {
-        content: "";
-        position: absolute;
-        left: 100%;
-        bottom: 26px;
-        width: 0;
-        height: 0;
-        border-top: 13px solid transparent;
-        border-left: 26px solid $complimentary-color2;
-        border-bottom: 13px solid transparent;
-    }
+  #welcome-text1:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid $complimentary-color2;
+    border-bottom: 13px solid transparent;
+  }
 }
 
 .type-effect p {
-    // border-right: 0.15em solid $primary-color;
-    white-space: nowrap;
-    overflow: hidden;
+  // border-right: 0.15em solid $primary-color;
+  white-space: nowrap;
+  overflow: hidden;
 }
-

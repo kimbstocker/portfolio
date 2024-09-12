@@ -1,236 +1,229 @@
 // Common styling for all pages
 
 @mixin flexitup($direction) {
-    display: flex;
-    flex-direction: $direction;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: wrap;
 }
 
 html {
-    font-family: "Zen Old Mincho", Georgia, serif;
-    height: 100%;
-    margin: 0;
-    color: $primary-text-color;
+  font-family: "Zen Old Mincho", Georgia, serif;
+  height: 100%;
+  margin: 0;
+  color: $primary-text-color;
 }
 
 body {
-    background-color: $background-color;
-    margin: 0 auto;
-    min-height: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
+  background-color: $background-color;
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-main {
-    flex-grow: 1;
+  flex-grow: 1;
 
-    button,
-    input {
-        font-family: "Lora", Georgia, serif;
-    }
+  button,
+  input {
+    font-family: "Lora", Georgia, serif;
+  }
 }
 
 h1,
 h2,
 h3 {
-    margin: 1rem 0;
-    font-family: "Lora", Georgia, serif;
+  margin: 1rem 0;
+  font-family: "Lora", Georgia, serif;
 }
 
 section {
-    padding: 2em;
+  padding: 2em;
 }
 
 .section-header {
-    border-bottom: 0.08rem solid $primary-color;
+  border-bottom: 0.08rem solid $primary-color;
 
-    .logo img {
-        height: 45px;
-        width: 45px;
-        border-radius: 50%;
-        border: 2.5px solid #df9b9b;
-        text-align: center;
-        padding: 0px;
-    }
+  .logo img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2.5px solid #df9b9b;
+    text-align: center;
+    padding: 0px;
+  }
 }
 
 .section-footer {
-    border-top: 0.08rem solid $primary-color;
+  border-top: 0.08rem solid $primary-color;
 }
 
 .header {
-    @include flexitup(row);
-    position: relative;
-    overflow: hidden;
+  @include flexitup(row);
+  position: relative;
+  overflow: hidden;
 }
 
 .topnav {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 
-    a {
-        padding: 0.1em 0.5rem 0.25rem 0.5rem;
-        background-color: $primary-color;
-        margin: 0.25em;
-        border-radius: 10%;
-        border: 3px solid white;
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-        display: block;
-        
-    }
+  a {
+    padding: 0.1em 0.5rem 0.25rem 0.5rem;
+    background-color: $primary-color;
+    margin: 0.25em;
+    border-radius: 10%;
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+  }
 
-    a:hover {
-        color: white;
-        text-shadow: 0px 0px 2px white;
-    }
+  a:hover {
+    color: white;
+    text-shadow: 0px 0px 2px white;
+  }
 }
 
 a.icon {
-    display: none;
+  display: none;
 }
 
 .logo {
-    margin-right: 1em;
-    align-self: flex-start;
-    flex-grow: 1;
+  margin-right: 1em;
+  align-self: flex-start;
+  flex-grow: 1;
 }
 
 .footer {
-    @include flexitup(row);
-    justify-content: center;
-    align-content: space-between;
+  @include flexitup(row);
+  justify-content: center;
+  align-content: space-between;
 }
 
 .footer-nav {
-    @include flexitup(row);
-    justify-content: space-around;
+  @include flexitup(row);
+  justify-content: space-around;
 
-    a {
-        padding: 0.1em 0.5rem 0.25rem 0.5rem;
-        margin: 0 1rem 1rem 0;
-        color: $primary-color;
-        font-weight: bold;
-    }
+  a {
+    padding: 0.1em 0.5rem 0.25rem 0.5rem;
+    margin: 0 1rem 1rem 0;
+    color: $primary-color;
+    font-weight: bold;
+  }
 
-    a:hover {
-        color: $complimentary-color1;
-    }
+  a:hover {
+    color: $complimentary-color1;
+  }
 }
 
 .footer-links {
-    @include flexitup(column);
+  @include flexitup(column);
 }
 
 .footer-social {
-    @include flexitup(row);
-    align-items: center;
+  @include flexitup(row);
+  align-items: center;
 
-    a {
-        display: flex;
-        padding: 0.25em;
-    }
+  a {
+    display: flex;
+    padding: 0.25em;
+  }
 
-    img {
-        width: 30px;
-        height: 30px;
-    }
+  img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .main-header {
-    padding-bottom: 0;
+  padding-bottom: 0;
 
-    p {
-        text-align: center;
-        font-size: 1.6rem;
-        padding: 0;
-        margin-bottom: 0;
-    }
+  p {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
 
-    a {
-        text-decoration: none;
-        color: rgb(78, 78, 209);
-    }
+  a {
+    text-decoration: none;
+    color: rgb(78, 78, 209);
+  }
 }
 
 .form-button {
-    background-color: $primary-color;
-    color: white;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    border: 3px solid white;
-    border-radius: 5%;
-    font-size: 1rem;
+  background-color: $primary-color;
+  color: white;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
 .form-button:hover {
-    text-shadow: 0px 0px 2px white;
+  text-shadow: 0px 0px 2px white;
 }
 
 @media screen and (min-width: 600px) {
-    .footer-left {
-        flex-grow: 1;
-    }
+  .footer-left {
+    flex-grow: 1;
+  }
 
-    .footer-social {
-        margin-left: 2em;
-    }
-}
-
-
-@media screen and (max-width: 607px) {
-    .topnav a {
-        display: none;
-    }
-
-    
-    a.icon {
-        float: right;
-        display: block;
-    }
+  .footer-social {
+    margin-left: 2em;
+  }
 }
 
 @media screen and (max-width: 607px) {
-    .topnav.responsive {
-        display: block;
-        position: relative;  
-        margin-top: 1rem;  
-    }
+  .topnav a {
+    display: none;
+  }
 
-    .header {
-        display: block;
-    }
-    
+  a.icon {
+    float: right;
+    display: block;
+  }
+}
 
-    a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-        text-decoration: none;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        border-radius: 0;
-        border: none;
-        margin: 0 0 0.2rem 0;
-        padding: 0.25rem 0 0.25rem 0.5rem;
-        transition: all 3s;  
-    }
+@media screen and (max-width: 607px) {
+  .topnav.responsive {
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+  }
 
-    .topnav.responsive a:hover {
-        background-color: white;
-        color: $primary-color;
-    }
+  .header {
+    display: block;
+  }
 
+  a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    border-radius: 0;
+    border: none;
+    margin: 0 0 0.2rem 0;
+    padding: 0.25rem 0 0.25rem 0.5rem;
+    transition: all 3s;
+  }
 
+  .topnav.responsive a:hover {
+    background-color: white;
+    color: $primary-color;
+  }
 
-
-    .logo {
-        flex-grow: unset;
-    }
+  .logo {
+    flex-grow: unset;
+  }
 }

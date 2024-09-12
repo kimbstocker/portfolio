@@ -1,83 +1,83 @@
 .pdf-link {
-    font-family: "Lora", Georgia, serif;
-    text-align: center;
+  font-family: "Lora", Georgia, serif;
+  text-align: center;
 }
 
 #resume-main {
-    @include flexitup(column);
-    align-content: center;
-    justify-content: space-around;
+  @include flexitup(column);
+  align-content: center;
+  justify-content: space-around;
 
-    .experience-date {
-        margin: 0;
-    }
+  .experience-date {
+    margin: 0;
+  }
 
-    h2 {
-        margin-top: 1rem;
-    }
+  h2 {
+    margin-top: 1rem;
+  }
 
-    h3 {
-        margin: 0;
-    }
+  h3 {
+    margin: 0;
+  }
 
-    ul {
-        padding-left: 1rem;
-        margin: 1rem 0;
-    }
+  ul {
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
 }
 
 .resume {
-    @include flexitup(column);
-    margin: 1rem;
-    padding: 1em 2em;
-    border-radius: 5%;
+  @include flexitup(column);
+  margin: 1rem;
+  padding: 1em 2em;
+  border-radius: 10px;
 }
 
 // Graphical component 4 - use box, box shadow etc. to display div as sections
 
 #skills {
-    background-color: $adjacent-color3;
-    box-shadow: 8px 8px 16px #e49394;
+  background-color: $adjacent-color3;
+  box-shadow: 8px 8px 16px #e49394;
 
-    ul {
-        margin-top: 0;
-    }
+  ul {
+    margin-top: 0;
+  }
 }
 
 #experience {
-    background-color: $adjacent-color1;
-    box-shadow: 8px 8px 16px #f1b1d1;
+  background-color: $complimentary-color2;
+  box-shadow: 8px 8px 16px #eeabaa;
 }
 
 // Text component 2 - change margin, use appropriate headings to aid accessibility
 
 #education {
-    background-color: $complimentary-color2;
-    box-shadow: 8px 8px 16px #eeabaa;
+  background-color: $adjacent-color1;
+  box-shadow: 8px 8px 16px #f1b1d1;
 
-    p {
-        margin: 0;
-    }
+  p {
+    margin: 0;
+  }
 
-    #para-mfm {
-        margin-bottom: 0;
-    }
+  #para-mfm {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 400px) {
-    .resume {
-        width: 300px;
-    }
+  .resume {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 1080px) {
-    #resume-main {
-        flex-direction: row;
-        align-content: center;
-        margin: 0;
-    }
+  #resume-main {
+    flex-direction: row;
+    align-content: center;
+    margin: 0;
+  }
 
-    .resume {
-        width: 250px;
-    }
+  .resume {
+    width: 250px;
+  }
 }
