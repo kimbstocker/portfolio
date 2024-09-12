@@ -1,167 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kim Stocker's personal</title>
-    <meta name="description" content="Kim Stocker's personal information, visited places">
-    <link rel="stylesheet" href="../styles/main.css" integrity="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+      name="description"
+      content="Kim Stocker's personal information, visited places"
+    />
+    <link rel="stylesheet" href="../styles/main.css" integrity="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- No subresource integrity for Google Fonts: https://github.com/google/fonts/issues/473 -->
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Zen+Old+Mincho:wght@400;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Zen+Old+Mincho:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
     <script src="../script/common.js" integrity=""></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="section-header">
+      <header class="header">
+        <div class="logo">
+          <a href="../"
+            ><img
+              src="../images/Kim_Stocker_T1A2_Logo.jpg"
+              alt="a personal logo"
+            />
+          </a>
+        </div>
 
-        <header class="header">
-            <div class="logo">
-                <a href="../"><img src="../images/Kim_Stocker_T1A2_Logo.jpg" alt="a personal logo">
-                </a>
-            </div>
-
-            <div class="topnav" id="myTopnav">
-                <a href="../">Home</a>
-                <a href="../contact">Contact</a>
-                <a href="../portfolio">Portfolio</a>
-                <a href="../resume">Resume</a>
-                <a href="../personal">Personal</a>
-                <a href="../blog">Blog</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="DropDownMenu()">
-                <i class="fa fa-bars" style="font-size:48px; color: #dd8c8c;">
-                </i>
-            </a>
-
-
-        </header>
-
-
+        <div class="topnav" id="myTopnav">
+          <a href="../">Home</a>
+          <a href="../contact">Contact</a>
+          <a href="../portfolio">Portfolio</a>
+          <a href="../resume">Resume</a>
+          <a href="../personal">Personal</a>
+          <a href="../blog">Blog</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="DropDownMenu()">
+          <i class="fa fa-bars" style="font-size: 48px; color: #dd8c8c"> </i>
+        </a>
+      </header>
     </section>
-
-
-
 
     <section class="section-main" id="personal-main">
+      <h2 id="this-that-header">
+        Would you like to play a game of This or That? &#128516;
+      </h2>
 
-        <h2 id="this-that-header">Would you like to play a game of This or That? &#128516;</h2>
+      <div class="this-that">
+        <div class="games4">
+          <div class="game-button" id="game1">
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="dogs"
+            >
+              Dogs
+            </button>
+            <p class="answers" id="dogs-clicked">Let's be friends &#x1F609;</p>
 
-        <div class="this-that">
-
-            <div class="games4">
-                <div class="game-button" id="game1">
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="dogs">Dogs</button>
-                    <p class="answers" id="dogs-clicked">Let's be friends &#x1F609;</p>
-
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="cat">Cats</button>
-                    <p class="answers" id="cat-clicked">They're so cute aren't they! &#x1F609;</p>
-                </div>
-
-                <div class="game-button" id="game2">
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="tea">Tea</button>
-                    <p class="answers" id="tea-clicked">I love high tea!!! &#x1F609;</p>
-
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="coffee">Coffee</button>
-                    <p class="answers" id="coffee-clicked">Soy latte is my fav! You? &#x1F609;</p>
-
-                </div>
-            </div>
-            <div class="games4">
-                <div class="game-button" id="game3">
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="netflix">Netflix</button>
-                    <p class="answers" id="netflix-clicked">I can binge for hours &#128517;</p>
-
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="youtube">YouTube</button>
-                    <p class="answers" id="youtube-clicked">Only for baking &#128517;</p>
-
-                </div>
-
-                <div class="game-button" id="game4">
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="ios">iOS</button>
-                    <p class="answers" id="ios-clicked">Recently converted and loving it! &#x1F609;</p>
-
-                    <button onclick="ClickedButton(this.id)" class="play-button" id="android">Android</button>
-                    <p class="answers" id="android-clicked">I respect that! &#x1F609;</p>
-
-                </div>
-            </div>
-        </div>
-
-
-        <hr>
-
-        <!-- Text component 3 -->
-        <div class="personal-map">
-            <h2>A little bit about me, personally!</h2>
-            <p>One <strong><strike>special</strike></strong> fact about me is that I <strong>LOVE</strong> to travel. If
-                you
-                look closely on the map below, you will see where I have been, my favourite places, and where I would
-                like to go next (when these Covid 19 restrictions are all over - I hope &#x1F62C;).</p>
-            <p>
-                Stay tuned to see me turning the purple areas into pink or green &#x1F609;. Also, check out my <a
-                    href="../pages/blog.html">Blog</a> for more content about my travel and other nerdy
-                stuff.
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="cat"
+            >
+              Cats
+            </button>
+            <p class="answers" id="cat-clicked">
+              They're so cute aren't they! &#x1F609;
             </p>
-            <img src="../images/Personal World Map.png" alt="a personal world map with color coded">
+          </div>
+
+          <div class="game-button" id="game2">
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="tea"
+            >
+              Tea
+            </button>
+            <p class="answers" id="tea-clicked">I love high tea!!! &#x1F609;</p>
+
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="coffee"
+            >
+              Coffee
+            </button>
+            <p class="answers" id="coffee-clicked">
+              Soy latte is my fav! You? &#x1F609;
+            </p>
+          </div>
         </div>
+        <div class="games4">
+          <div class="game-button" id="game3">
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="netflix"
+            >
+              Netflix
+            </button>
+            <p class="answers" id="netflix-clicked">
+              I can binge for hours &#128517;
+            </p>
 
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="youtube"
+            >
+              YouTube
+            </button>
+            <p class="answers" id="youtube-clicked">
+              Only for baking &#128517;
+            </p>
+          </div>
 
+          <div class="game-button" id="game4">
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="ios"
+            >
+              iOS
+            </button>
+            <p class="answers" id="ios-clicked">
+              Recently converted and loving it! &#x1F609;
+            </p>
 
+            <button
+              onclick="ClickedButton(this.id)"
+              class="play-button"
+              id="android"
+            >
+              Android
+            </button>
+            <p class="answers" id="android-clicked">
+              I respect that! &#x1F609;
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <hr />
 
-
-
-
-
-
-
-
+      <!-- Text component 3 -->
+      <div class="personal-map">
+        <h2>A little bit about me, personally!</h2>
+        <p>
+          One <strong><strike>special</strike></strong> fact about me is that I
+          <strong>LOVE</strong> to travel. If you look closely on the map below,
+          you will see where I have been, my favourite places, and where I would
+          like to go next (when these Covid 19 restrictions are all over - I
+          hope &#x1F62C;).
+        </p>
+        <p>
+          Stay tuned to see me turning the purple areas into pink or green
+          &#x1F609;. Also, check out my <a href="../blog">Blog</a> for more
+          content about my travel and other nerdy stuff.
+        </p>
+        <img
+          src="../images/Personal World Map.png"
+          alt="a personal world map with color coded"
+        />
+      </div>
     </section>
-
-
 
     <section class="section-footer">
-
-        <footer class="footer">
-            <div class="footer-left">
-            </div>
-            <nav class="footer-nav">
-                <div class="footer-links">
-                    <a href="../">Home</a>
-                    <a href="../contact">Contact</a>
-                </div>
-                <div class="footer-links">
-                    <a href="../personal">Personal</a>
-                    <a href="../portfolio">Portfolio</a>
-                </div>
-                <div class="footer-links">
-                    <a href="../resume">Resume</a>
-                    <a href="../blog">Blog</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://github.com/kimbstocker" target="_blank">
-                        <img src="../images/GitHub.jpg" alt="GitHub logo">
-                    </a>
-                    <a href="https://www.linkedin.com/in/kim-stocker-83547217" target="_blank">
-                        <img src="../images/LinkedIn.jpg" alt="linkedin logo">
-                    </a>
-                    <a href="https://twitter.com/KimStocker7" target="_blank">
-                        <img src="../images/Twitter.jpg" alt="Twitter logo">
-                    </a>
-                </div>
-            </nav>
-        </footer>
-
+      <footer class="footer">
+        <div class="footer-left"></div>
+        <nav class="footer-nav">
+          <div class="footer-links">
+            <a href="../">Home</a>
+            <a href="../contact">Contact</a>
+          </div>
+          <div class="footer-links">
+            <a href="../personal">Personal</a>
+            <a href="../portfolio">Portfolio</a>
+          </div>
+          <div class="footer-links">
+            <a href="../resume">Resume</a>
+            <a href="../blog">Blog</a>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/kimbstocker" target="_blank">
+              <img src="../images/GitHub.jpg" alt="GitHub logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kim-stocker-83547217"
+              target="_blank"
+            >
+              <img src="../images/LinkedIn.jpg" alt="linkedin logo" />
+            </a>
+            <a href="https://twitter.com/KimStocker7" target="_blank">
+              <img src="../images/Twitter.jpg" alt="Twitter logo" />
+            </a>
+          </div>
+        </nav>
+      </footer>
     </section>
-
-</body>
-
+  </body>
 </html>
